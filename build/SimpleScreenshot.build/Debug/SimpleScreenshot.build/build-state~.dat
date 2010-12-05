@@ -1,0 +1,1327 @@
+TSimpleScreenshot
+v7
+r0
+t313271616.862252
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Info.plist SimpleScreenshot-Info.plist
+cCopyStringsFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib
+cCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/icon.icns icon.icns
+cCopyTiffFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff loader.tiff
+cCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/spinner.gif spinner.gif
+cCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/smallicon.png smallicon.png
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch.gch SimpleScreenshot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o /Users/alex/Desktop/SimpleScreenshot/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o /Users/alex/Desktop/SimpleScreenshot/Screenshot.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o /Users/alex/Desktop/SimpleScreenshot/TransView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot normal i386
+cTouch /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.h
+c000000004CFBED600000000000000454
+t1291578720
+s1108
+i<Foundation/Foundation.h>
+i<Quartz/Quartz.h>
+
+N/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m
+c000000004CFBED77000000000000290C
+t1291578743
+s10508
+i"ANImageBitmapRep.h"
+
+N/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h
+c000000004CF7079100000000000003B1
+t1291257745
+s945
+i<Cocoa/Cocoa.h>
+i<Carbon/Carbon.h>
+
+N/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m
+c000000004CF707A90000000000000990
+t1291257769
+s2448
+i"ANKeyEvent.h"
+
+N/Users/alex/Desktop/SimpleScreenshot/English.lproj/InfoPlist.strings
+c000000004CF70602000000000000002D
+t1291257346
+s45
+
+N/Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib
+c000000004CFBE8B400000000000315D4
+t1291577524
+s202196
+
+N/Users/alex/Desktop/SimpleScreenshot/Screenshot.h
+c000000004A9AF8C500000000000002AB
+t1251670213
+s683
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/alex/Desktop/SimpleScreenshot/Screenshot.m
+c000000004C0027420000000000001FE1
+t1275078466
+s8161
+i"Screenshot.h"
+
+N/Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.h
+c000000004CFBD0180000000000000333
+t1291571224
+s819
+i<Cocoa/Cocoa.h>
+i"Screenshot.h"
+i"ANImageBitmapRep.h"
+
+N/Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m
+c000000004CFBE9300000000000000C0B
+t1291577648
+s3083
+i"ScreenshotMaker.h"
+i"Screenshot.h"
+
+N/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.h
+c000000004CFBED4F00000000000002E8
+t1291578703
+s744
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i"Screenshot.h"
+i"ANKeyEvent.h"
+i"ANImageBitmapRep.h"
+i"ScreenshotMaker.h"
+
+N/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m
+c000000004CFBEDB50000000000001CAC
+t1291578805
+s7340
+i"SimpleScreenshotAppDelegate.h"
+
+N/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch
+c000000004CF7060200000000000000A3
+t1291257346
+s163
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/SimpleScreenshot/TransView.h
+c000000004CFBE6FD00000000000000D4
+t1291577085
+s212
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/SimpleScreenshot/TransView.m
+c000000004CFBED8B00000000000002CA
+t1291578763
+s714
+i"TransView.h"
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app
+t1291578816
+s102
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Info.plist
+t1291578812
+s1057
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot
+t1291578816
+s61020
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/PkgInfo
+t1291578812
+s8
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1291578812
+s92
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/MainMenu.nib
+t1291578812
+s36557
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/icon.icns
+t1291578812
+s47191
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff
+t1291578812
+s160202
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/smallicon.png
+t1291578812
+s1686
+
+N/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/spinner.gif
+t1291578812
+s38369
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o
+t1291578816
+s32668
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o
+t1291578816
+s21664
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o
+t1291578816
+s27876
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o
+t1291578816
+s23344
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshot
+t2
+s0
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshot.LinkFileList
+c000000004CFBEDBC0000000000000395
+t1291578812
+s917
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o
+t1291578816
+s42856
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o
+t1291578816
+s14404
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o
+t1291578816
+s4880
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ANImageBitmapRep.o
+t1291578539
+s37588
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ANKeyEvent.o
+t1291578538
+s23980
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/Screenshot.o
+t1291578538
+s29668
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ScreenshotMaker.o
+t1291578538
+s25048
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/SimpleScreenshot
+t2
+s0
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/SimpleScreenshot.LinkFileList
+c000000004CFBECA2000000000000038E
+t1291578530
+s910
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/SimpleScreenshotAppDelegate.o
+t2
+s0
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/TransView.o
+t2
+s0
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/main.o
+t1291578538
+s5016
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ANImageBitmapRep.o
+t1291575077
+s41664
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ANKeyEvent.o
+t1291258042
+s30908
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/Screenshot.o
+t1291258042
+s32304
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ScreenshotMaker.o
+t1291577650
+s29796
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot
+t1291578537
+s77120
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot.LinkFileList
+c000000004CFBE6DE00000000000003A3
+t1291577054
+s931
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshotAppDelegate.o
+t1291578374
+s60008
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/TransView.o
+t1291577086
+s15520
+
+N/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/main.o
+t1291258041
+s5016
+
+N/Users/alex/Desktop/SimpleScreenshot/icon.icns
+c000000004CF70959000000000000B857
+t1291258201
+s47191
+
+N/Users/alex/Desktop/SimpleScreenshot/loader.tiff
+c000000004CFBE42300000000000271CA
+t1291576355
+s160202
+
+N/Users/alex/Desktop/SimpleScreenshot/main.m
+c000000004CF706020000000000000105
+t1291257346
+s261
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/SimpleScreenshot/smallicon.png
+c000000004CFBEC660000000000000696
+t1291578470
+s1686
+
+N/Users/alex/Desktop/SimpleScreenshot/spinner.gif
+c000000004CFBE88C00000000000095E1
+t1291577484
+s38369
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004B760CC000000000000049C0
+t1266027712
+s18880
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004864BE3E00000000000005D7
+t1214561854
+s1495
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004B760CD4000000000000CB3C
+t1266027732
+s52028
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c0000000047BB1D140000000000000100
+t1203445012
+s256
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004B760CD700000000000046C8
+t1266027735
+s18120
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004CAA74040000000000003A54
+t1286239236
+s14932
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004C23BF2D00000000000005FF
+t1277411117
+s1535
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004CAA7405000000000000DB14
+t1286239237
+s56084
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004AD870D50000000000000124
+t1255698645
+s292
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004CAA740500000000000036E0
+t1286239237
+s14048
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch.gch
+t1291258041
+s54314768
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch.gch
+t1291578815
+s54124976
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-duafzuhyuimekkdjfgypfuhtgplw/SimpleScreenshot_Prefix.pch.gch
+t1291578569
+s56944432
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch.gch
+t1291578536
+s53241424
+
+NSimpleScreenshot-Info.plist
+c000000004CFBEAEF0000000000000437
+t1291578095
+s1079
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313271612#313271612#0(0"0(0#1#0"8631941792#0"0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313271616.541449
+e313271616.813781
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o
+x/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':
+o/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+lSLF07#2@63"Compile /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m313271616#313271616#0(341"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type1(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313271616#117#224#0(6@55"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m313271543#199#0#199#0#0"0(0#0#55"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m8632987200#1656"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313271616.013469
+e313271616.389930
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o
+x/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m313271616#313271616#0(0"0(0#0#49"/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m8637824672#1644"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o /Users/alex/Desktop/SimpleScreenshot/Screenshot.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313271616.286998
+e313271616.541341
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o
+x/Users/alex/Desktop/SimpleScreenshot/Screenshot.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: incomplete implementation of class 'Screenshot'
+o/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: method definition for '-createTIFFImageFileOnDesktop' not found
+lSLF07#2@57"Compile /Users/alex/Desktop/SimpleScreenshot/Screenshot.m313271616#313271616#0(240"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: incomplete implementation of class 'Screenshot'/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: method definition for '-createTIFFImageFileOnDesktop' not found2(22@47"Incomplete implementation of class 'Screenshot'313271616#0#112#0(6@49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m296771266#264#0#264#0#38"incomplete implementation of class '*'0(22@63"Method definition for '-createTIFFImageFileOnDesktop' not found313271616#112#128#0(6@49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m296771266#264#0#264#0#35"method definition for '*' not found0(0#0#49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m8632861344#1644"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/Screenshot.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313271616.390033
+e313271616.639641
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o
+x/Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m313271616#313271616#0(0"0(0#0#54"/Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m8631671456#1654"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313271615.810799
+e313271616.286888
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o
+x/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate cropThread:]':
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:147: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: At top level:
+o/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used
+lSLF07#2@74"Compile /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271615#313271616#0(539"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate cropThread:]':/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:147: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: At top level:/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used3(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313271616#126#235#0(6@66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271605#147#0#147#0#0"0(23@13"At top level:313271616#361#82#0(6@66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271605#0#0#0#0#0"0(22@32"'_curkeyid' defined but not used313271616#443#96#0(6@49"/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h312950545#13#0#13#0#24"'*' defined but not used0(0#0#66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m8634157408#1678"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o /Users/alex/Desktop/SimpleScreenshot/TransView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313271616.639744
+e313271616.821973
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o
+x/Users/alex/Desktop/SimpleScreenshot/TransView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/alex/Desktop/SimpleScreenshot/TransView.m313271616#313271616#0(0"0(0#0#48"/Users/alex/Desktop/SimpleScreenshot/TransView.m8631632640#1642"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/TransView.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o /Users/alex/Desktop/SimpleScreenshot/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313271615.808905
+e313271616.013365
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o
+x/Users/alex/Desktop/SimpleScreenshot/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/alex/Desktop/SimpleScreenshot/main.m313271615#313271616#0(0"0(0#0#43"/Users/alex/Desktop/SimpleScreenshot/main.m8630274784#1632"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/main.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ANImageBitmapRep.o /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313271338.947338
+e313271339.228553
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ANImageBitmapRep.o
+x/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':
+o/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+lSLF07#2@63"Compile /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m313271338#313271339#0(341"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type1(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313271339#117#224#0(6@55"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m313267854#199#0#199#0#0"0(0#0#55"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m8623926272#1663"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/ppc -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ANImageBitmapRep.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ANKeyEvent.o /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313271338.338295
+e313271338.724211
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ANKeyEvent.o
+x/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m313271338#313271338#0(0"0(0#0#49"/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m8626785056#1651"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/ppc -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ANKeyEvent.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/Screenshot.o /Users/alex/Desktop/SimpleScreenshot/Screenshot.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313271338.659689
+e313271338.947227
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/Screenshot.o
+x/Users/alex/Desktop/SimpleScreenshot/Screenshot.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: incomplete implementation of class 'Screenshot'
+o/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: method definition for '-createTIFFImageFileOnDesktop' not found
+lSLF07#2@57"Compile /Users/alex/Desktop/SimpleScreenshot/Screenshot.m313271338#313271338#0(240"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: incomplete implementation of class 'Screenshot'/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: method definition for '-createTIFFImageFileOnDesktop' not found2(22@47"Incomplete implementation of class 'Screenshot'313271338#0#112#0(6@49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m296771266#264#0#264#0#38"incomplete implementation of class '*'0(22@63"Method definition for '-createTIFFImageFileOnDesktop' not found313271338#112#128#0(6@49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m296771266#264#0#264#0#35"method definition for '*' not found0(0#0#49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m8636603712#1651"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/ppc -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/Screenshot.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/Screenshot.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ScreenshotMaker.o /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313271338.724323
+e313271338.977413
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ScreenshotMaker.o
+x/Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m313271338#313271338#0(0"0(0#0#54"/Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m8637493504#1661"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/ppc -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ScreenshotMaker.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/SimpleScreenshotAppDelegate.o /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313271338.215450
+e313271338.659589
+r0
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/SimpleScreenshotAppDelegate.o
+x/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate cropThread:]':
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:147: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:148: error: incompatible type for argument 1 of 'initWithSize:'
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:187: error: incompatible type for argument 1 of 'cropWithFrame:'
+o{standard input}:1247:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_53" minus "L00000000010$pb"
+o{standard input}:1247:symbol: "L_OBJC_SELECTOR_REFERENCES_53" can't be undefined in a subtraction expression
+o{standard input}:1246:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_53" minus "L00000000010$pb"
+o{standard input}:1246:symbol: "L_OBJC_SELECTOR_REFERENCES_53" can't be undefined in a subtraction expression
+o{standard input}:1233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_52" minus "L00000000010$pb"
+o{standard input}:1233:symbol: "L_OBJC_SELECTOR_REFERENCES_52" can't be undefined in a subtraction expression
+o{standard input}:1232:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_52" minus "L00000000010$pb"
+o{standard input}:1232:symbol: "L_OBJC_SELECTOR_REFERENCES_52" can't be undefined in a subtraction expression
+o{standard input}:1192:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_53" minus "L00000000009$pb"
+o{standard input}:1192:symbol: "L_OBJC_SELECTOR_REFERENCES_53" can't be undefined in a subtraction expression
+o{standard input}:1191:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_53" minus "L00000000009$pb"
+o{standard input}:1191:symbol: "L_OBJC_SELECTOR_REFERENCES_53" can't be undefined in a subtraction expression
+o{standard input}:1178:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_52" minus "L00000000009$pb"
+o{standard input}:1178:symbol: "L_OBJC_SELECTOR_REFERENCES_52" can't be undefined in a subtraction expression
+o{standard input}:1177:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_52" minus "L00000000009$pb"
+o{standard input}:1177:symbol: "L_OBJC_SELECTOR_REFERENCES_52" can't be undefined in a subtraction expression
+o{standard input}:1127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_50" minus "L00000000008$pb"
+o{standard input}:1127:symbol: "L_OBJC_SELECTOR_REFERENCES_50" can't be undefined in a subtraction expression
+o{standard input}:1126:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_50" minus "L00000000008$pb"
+o{standard input}:1126:symbol: "L_OBJC_SELECTOR_REFERENCES_50" can't be undefined in a subtraction expression
+o{standard input}:1123:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000008$pb"
+o{standard input}:1123:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:1122:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000008$pb"
+o{standard input}:1122:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:1120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_51" minus "L00000000008$pb"
+o{standard input}:1120:symbol: "L_OBJC_SELECTOR_REFERENCES_51" can't be undefined in a subtraction expression
+o{standard input}:1119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_51" minus "L00000000008$pb"
+o{standard input}:1119:symbol: "L_OBJC_SELECTOR_REFERENCES_51" can't be undefined in a subtraction expression
+o{standard input}:1109:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_49" minus "L00000000008$pb"
+o{standard input}:1109:symbol: "L_OBJC_SELECTOR_REFERENCES_49" can't be undefined in a subtraction expression
+o{standard input}:1108:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_49" minus "L00000000008$pb"
+o{standard input}:1108:symbol: "L_OBJC_SELECTOR_REFERENCES_49" can't be undefined in a subtraction expression
+o{standard input}:1100:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_48" minus "L00000000008$pb"
+o{standard input}:1100:symbol: "L_OBJC_SELECTOR_REFERENCES_48" can't be undefined in a subtraction expression
+o{standard input}:1099:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_48" minus "L00000000008$pb"
+o{standard input}:1099:symbol: "L_OBJC_SELECTOR_REFERENCES_48" can't be undefined in a subtraction expression
+o{standard input}:1091:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_47" minus "L00000000008$pb"
+o{standard input}:1091:symbol: "L_OBJC_SELECTOR_REFERENCES_47" can't be undefined in a subtraction expression
+o{standard input}:1090:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_47" minus "L00000000008$pb"
+o{standard input}:1090:symbol: "L_OBJC_SELECTOR_REFERENCES_47" can't be undefined in a subtraction expression
+o{standard input}:1081:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_46" minus "L00000000008$pb"
+o{standard input}:1081:symbol: "L_OBJC_SELECTOR_REFERENCES_46" can't be undefined in a subtraction expression
+o{standard input}:1080:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_46" minus "L00000000008$pb"
+o{standard input}:1080:symbol: "L_OBJC_SELECTOR_REFERENCES_46" can't be undefined in a subtraction expression
+o{standard input}:1072:non-relocatable subtraction expression, "LC11" minus "L00000000008$pb"
+o{standard input}:1072:symbol: "LC11" can't be undefined in a subtraction expression
+o{standard input}:1071:non-relocatable subtraction expression, "LC11" minus "L00000000008$pb"
+o{standard input}:1071:symbol: "LC11" can't be undefined in a subtraction expression
+o{standard input}:1069:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_45" minus "L00000000008$pb"
+o{standard input}:1069:symbol: "L_OBJC_SELECTOR_REFERENCES_45" can't be undefined in a subtraction expression
+o{standard input}:1068:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_45" minus "L00000000008$pb"
+o{standard input}:1068:symbol: "L_OBJC_SELECTOR_REFERENCES_45" can't be undefined in a subtraction expression
+o{standard input}:1062:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_44" minus "L00000000008$pb"
+o{standard input}:1062:symbol: "L_OBJC_SELECTOR_REFERENCES_44" can't be undefined in a subtraction expression
+o{standard input}:1061:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_44" minus "L00000000008$pb"
+o{standard input}:1061:symbol: "L_OBJC_SELECTOR_REFERENCES_44" can't be undefined in a subtraction expression
+o{standard input}:1058:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_9" minus "L00000000008$pb"
+o{standard input}:1058:symbol: "L_OBJC_CLASS_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:1057:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_9" minus "L00000000008$pb"
+o{standard input}:1057:symbol: "L_OBJC_CLASS_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:1049:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_43" minus "L00000000008$pb"
+o{standard input}:1049:symbol: "L_OBJC_SELECTOR_REFERENCES_43" can't be undefined in a subtraction expression
+o{standard input}:1048:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_43" minus "L00000000008$pb"
+o{standard input}:1048:symbol: "L_OBJC_SELECTOR_REFERENCES_43" can't be undefined in a subtraction expression
+o{standard input}:1037:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_42" minus "L00000000008$pb"
+o{standard input}:1037:symbol: "L_OBJC_SELECTOR_REFERENCES_42" can't be undefined in a subtraction expression
+o{standard input}:1036:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_42" minus "L00000000008$pb"
+o{standard input}:1036:symbol: "L_OBJC_SELECTOR_REFERENCES_42" can't be undefined in a subtraction expression
+o{standard input}:1029:non-relocatable subtraction expression, "LC10" minus "L00000000008$pb"
+o{standard input}:1029:symbol: "LC10" can't be undefined in a subtraction expression
+o{standard input}:1028:non-relocatable subtraction expression, "LC10" minus "L00000000008$pb"
+o{standard input}:1028:symbol: "LC10" can't be undefined in a subtraction expression
+o{standard input}:1020:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000008$pb"
+o{standard input}:1020:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:1019:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000008$pb"
+o{standard input}:1019:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:1004:non-relocatable subtraction expression, "LC9" minus "L00000000008$pb"
+o{standard input}:1004:symbol: "LC9" can't be undefined in a subtraction expression
+o{standard input}:1003:non-relocatable subtraction expression, "LC9" minus "L00000000008$pb"
+o{standard input}:1003:symbol: "LC9" can't be undefined in a subtraction expression
+o{standard input}:1001:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_40" minus "L00000000008$pb"
+o{standard input}:1001:symbol: "L_OBJC_SELECTOR_REFERENCES_40" can't be undefined in a subtraction expression
+o{standard input}:1000:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_40" minus "L00000000008$pb"
+o{standard input}:1000:symbol: "L_OBJC_SELECTOR_REFERENCES_40" can't be undefined in a subtraction expression
+o{standard input}:998:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_8" minus "L00000000008$pb"
+o{standard input}:998:symbol: "L_OBJC_CLASS_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:997:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_8" minus "L00000000008$pb"
+o{standard input}:997:symbol: "L_OBJC_CLASS_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:995:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_41" minus "L00000000008$pb"
+o{standard input}:995:symbol: "L_OBJC_SELECTOR_REFERENCES_41" can't be undefined in a subtraction expression
+o{standard input}:994:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_41" minus "L00000000008$pb"
+o{standard input}:994:symbol: "L_OBJC_SELECTOR_REFERENCES_41" can't be undefined in a subtraction expression
+o{standard input}:985:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_39" minus "L00000000008$pb"
+o{standard input}:985:symbol: "L_OBJC_SELECTOR_REFERENCES_39" can't be undefined in a subtraction expression
+o{standard input}:984:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_39" minus "L00000000008$pb"
+o{standard input}:984:symbol: "L_OBJC_SELECTOR_REFERENCES_39" can't be undefined in a subtraction expression
+o{standard input}:977:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000008$pb"
+o{standard input}:977:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression
+o{standard input}:976:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000008$pb"
+o{standard input}:976:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression
+o{standard input}:969:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_37" minus "L00000000008$pb"
+o{standard input}:969:symbol: "L_OBJC_SELECTOR_REFERENCES_37" can't be undefined in a subtraction expression
+o{standard input}:968:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_37" minus "L00000000008$pb"
+o{standard input}:968:symbol: "L_OBJC_SELECTOR_REFERENCES_37" can't be undefined in a subtraction expression
+o{standard input}:965:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000008$pb"
+o{standard input}:965:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:964:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000008$pb"
+o{standard input}:964:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:898:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000007$pb"
+o{standard input}:898:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:897:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000007$pb"
+o{standard input}:897:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:883:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_36" minus "L00000000007$pb"
+o{standard input}:883:symbol: "L_OBJC_SELECTOR_REFERENCES_36" can't be undefined in a subtraction expression
+o{standard input}:882:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_36" minus "L00000000007$pb"
+o{standard input}:882:symbol: "L_OBJC_SELECTOR_REFERENCES_36" can't be undefined in a subtraction expression
+o{standard input}:878:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000007$pb"
+o{standard input}:878:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression
+o{standard input}:877:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000007$pb"
+o{standard input}:877:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression
+o{standard input}:868:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000007$pb"
+o{standard input}:868:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:867:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000007$pb"
+o{standard input}:867:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:853:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_34" minus "L00000000007$pb"
+o{standard input}:853:symbol: "L_OBJC_SELECTOR_REFERENCES_34" can't be undefined in a subtraction expression
+o{standard input}:852:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_34" minus "L00000000007$pb"
+o{standard input}:852:symbol: "L_OBJC_SELECTOR_REFERENCES_34" can't be undefined in a subtraction expression
+o{standard input}:848:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000007$pb"
+o{standard input}:848:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression
+o{standard input}:847:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000007$pb"
+o{standard input}:847:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression
+o{standard input}:838:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000007$pb"
+o{standard input}:838:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:837:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000007$pb"
+o{standard input}:837:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:829:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000007$pb"
+o{standard input}:829:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression
+o{standard input}:828:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000007$pb"
+o{standard input}:828:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression
+o{standard input}:825:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000007$pb"
+o{standard input}:825:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:824:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000007$pb"
+o{standard input}:824:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:816:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000007$pb"
+o{standard input}:816:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression
+o{standard input}:815:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000007$pb"
+o{standard input}:815:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression
+o{standard input}:812:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000007$pb"
+o{standard input}:812:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:811:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000007$pb"
+o{standard input}:811:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:738:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000006$pb"
+o{standard input}:738:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression
+o{standard input}:737:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000006$pb"
+o{standard input}:737:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression
+o{standard input}:672:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000005$pb"
+o{standard input}:672:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression
+o{standard input}:671:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000005$pb"
+o{standard input}:671:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression
+o{standard input}:663:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000005$pb"
+o{standard input}:663:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression
+o{standard input}:662:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000005$pb"
+o{standard input}:662:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression
+o{standard input}:654:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000005$pb"
+o{standard input}:654:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression
+o{standard input}:653:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000005$pb"
+o{standard input}:653:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression
+o{standard input}:645:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"
+o{standard input}:645:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:644:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"
+o{standard input}:644:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:636:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"
+o{standard input}:636:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:635:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"
+o{standard input}:635:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:627:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"
+o{standard input}:627:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:626:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"
+o{standard input}:626:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:618:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000005$pb"
+o{standard input}:618:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression
+o{standard input}:617:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000005$pb"
+o{standard input}:617:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression
+o{standard input}:615:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000005$pb"
+o{standard input}:615:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:614:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000005$pb"
+o{standard input}:614:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:605:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000005$pb"
+o{standard input}:605:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:604:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000005$pb"
+o{standard input}:604:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:595:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000005$pb"
+o{standard input}:595:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:594:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000005$pb"
+o{standard input}:594:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:587:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000005$pb"
+o{standard input}:587:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:586:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000005$pb"
+o{standard input}:586:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:583:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000005$pb"
+o{standard input}:583:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:582:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000005$pb"
+o{standard input}:582:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:545:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000004$pb"
+o{standard input}:545:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression
+o{standard input}:544:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000004$pb"
+o{standard input}:544:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression
+o{standard input}:536:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000004$pb"
+o{standard input}:536:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression
+o{standard input}:535:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000004$pb"
+o{standard input}:535:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression
+o{standard input}:527:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000004$pb"
+o{standard input}:527:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression
+o{standard input}:526:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000004$pb"
+o{standard input}:526:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression
+o{standard input}:518:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000004$pb"
+o{standard input}:518:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:517:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000004$pb"
+o{standard input}:517:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:509:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000004$pb"
+o{standard input}:509:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:508:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000004$pb"
+o{standard input}:508:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:500:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"
+o{standard input}:500:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:499:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"
+o{standard input}:499:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:491:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"
+o{standard input}:491:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:490:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"
+o{standard input}:490:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:488:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"
+o{standard input}:488:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:487:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"
+o{standard input}:487:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:478:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000004$pb"
+o{standard input}:478:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:477:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000004$pb"
+o{standard input}:477:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:468:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000004$pb"
+o{standard input}:468:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:467:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000004$pb"
+o{standard input}:467:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:460:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000004$pb"
+o{standard input}:460:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:459:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000004$pb"
+o{standard input}:459:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:456:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000004$pb"
+o{standard input}:456:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:455:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000004$pb"
+o{standard input}:455:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:418:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"
+o{standard input}:418:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:417:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"
+o{standard input}:417:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:408:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000003$pb"
+o{standard input}:408:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:407:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000003$pb"
+o{standard input}:407:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:399:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000003$pb"
+o{standard input}:399:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:398:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000003$pb"
+o{standard input}:398:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:389:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000003$pb"
+o{standard input}:389:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:388:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000003$pb"
+o{standard input}:388:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:378:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"
+o{standard input}:378:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:377:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"
+o{standard input}:377:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:368:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"
+o{standard input}:368:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:367:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"
+o{standard input}:367:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:350:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"
+o{standard input}:350:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:349:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"
+o{standard input}:349:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:342:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:342:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:341:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:341:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:338:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000003$pb"
+o{standard input}:338:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:337:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000003$pb"
+o{standard input}:337:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:329:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"
+o{standard input}:329:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:328:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"
+o{standard input}:328:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:315:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"
+o{standard input}:315:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:314:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"
+o{standard input}:314:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:307:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:307:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:306:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:306:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:303:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000003$pb"
+o{standard input}:303:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:302:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000003$pb"
+o{standard input}:302:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:294:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"
+o{standard input}:294:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:293:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"
+o{standard input}:293:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:284:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"
+o{standard input}:284:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:283:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"
+o{standard input}:283:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:280:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:280:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:279:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:279:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:241:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:241:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:240:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:240:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:230:non-relocatable subtraction expression, "L_NSTIFFPboardType$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:230:symbol: "L_NSTIFFPboardType$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:229:non-relocatable subtraction expression, "L_NSTIFFPboardType$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:229:symbol: "L_NSTIFFPboardType$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:223:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:223:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:222:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:222:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:218:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:218:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:208:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"
+o{standard input}:208:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:207:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"
+o{standard input}:207:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:192:non-relocatable subtraction expression, "L_NSTIFFPboardType$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:192:symbol: "L_NSTIFFPboardType$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:191:non-relocatable subtraction expression, "L_NSTIFFPboardType$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:191:symbol: "L_NSTIFFPboardType$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:189:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:189:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:188:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:188:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:185:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000002$pb"
+o{standard input}:185:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:184:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000002$pb"
+o{standard input}:184:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:176:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:176:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:175:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:175:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:172:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000002$pb"
+o{standard input}:172:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:171:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000002$pb"
+o{standard input}:171:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:160:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:160:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:159:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:159:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:152:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:152:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:151:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:151:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:148:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:148:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:147:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:147:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:82:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:82:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:72:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:72:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:71:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:71:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:64:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:64:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:63:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:63:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_NSTIFFPboardType$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_30
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_31
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_32
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_33
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_35
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_34
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_36
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_37
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_38
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_39
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_41
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_40
+o{standard input}:unknown:Undefined local symbol LC9
+o{standard input}:unknown:Undefined local symbol LC10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_42
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_43
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_44
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_45
+o{standard input}:unknown:Undefined local symbol LC11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_46
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_47
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_48
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_49
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_51
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_50
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_52
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_53
+lSLF07#2@74"Compile /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271338#313271338#0(48058"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate cropThread:]':/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:147: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:148: error: incompatible type for argument 1 of 'initWithSize:'/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:187: error: incompatible type for argument 1 of 'cropWithFrame:'{standard input}:1247:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_53" minus "L00000000010$pb"{standard input}:1247:symbol: "L_OBJC_SELECTOR_REFERENCES_53" can't be undefined in a subtraction expression{standard input}:1246:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_53" minus "L00000000010$pb"{standard input}:1246:symbol: "L_OBJC_SELECTOR_REFERENCES_53" can't be undefined in a subtraction expression{standard input}:1233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_52" minus "L00000000010$pb"{standard input}:1233:symbol: "L_OBJC_SELECTOR_REFERENCES_52" can't be undefined in a subtraction expression{standard input}:1232:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_52" minus "L00000000010$pb"{standard input}:1232:symbol: "L_OBJC_SELECTOR_REFERENCES_52" can't be undefined in a subtraction expression{standard input}:1192:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_53" minus "L00000000009$pb"{standard input}:1192:symbol: "L_OBJC_SELECTOR_REFERENCES_53" can't be undefined in a subtraction expression{standard input}:1191:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_53" minus "L00000000009$pb"{standard input}:1191:symbol: "L_OBJC_SELECTOR_REFERENCES_53" can't be undefined in a subtraction expression{standard input}:1178:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_52" minus "L00000000009$pb"{standard input}:1178:symbol: "L_OBJC_SELECTOR_REFERENCES_52" can't be undefined in a subtraction expression{standard input}:1177:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_52" minus "L00000000009$pb"{standard input}:1177:symbol: "L_OBJC_SELECTOR_REFERENCES_52" can't be undefined in a subtraction expression{standard input}:1127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_50" minus "L00000000008$pb"{standard input}:1127:symbol: "L_OBJC_SELECTOR_REFERENCES_50" can't be undefined in a subtraction expression{standard input}:1126:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_50" minus "L00000000008$pb"{standard input}:1126:symbol: "L_OBJC_SELECTOR_REFERENCES_50" can't be undefined in a subtraction expression{standard input}:1123:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000008$pb"{standard input}:1123:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:1122:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000008$pb"{standard input}:1122:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:1120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_51" minus "L00000000008$pb"{standard input}:1120:symbol: "L_OBJC_SELECTOR_REFERENCES_51" can't be undefined in a subtraction expression{standard input}:1119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_51" minus "L00000000008$pb"{standard input}:1119:symbol: "L_OBJC_SELECTOR_REFERENCES_51" can't be undefined in a subtraction expression{standard input}:1109:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_49" minus "L00000000008$pb"{standard input}:1109:symbol: "L_OBJC_SELECTOR_REFERENCES_49" can't be undefined in a subtraction expression{standard input}:1108:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_49" minus "L00000000008$pb"{standard input}:1108:symbol: "L_OBJC_SELECTOR_REFERENCES_49" can't be undefined in a subtraction expression{standard input}:1100:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_48" minus "L00000000008$pb"{standard input}:1100:symbol: "L_OBJC_SELECTOR_REFERENCES_48" can't be undefined in a subtraction expression{standard input}:1099:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_48" minus "L00000000008$pb"{standard input}:1099:symbol: "L_OBJC_SELECTOR_REFERENCES_48" can't be undefined in a subtraction expression{standard input}:1091:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_47" minus "L00000000008$pb"{standard input}:1091:symbol: "L_OBJC_SELECTOR_REFERENCES_47" can't be undefined in a subtraction expression{standard input}:1090:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_47" minus "L00000000008$pb"{standard input}:1090:symbol: "L_OBJC_SELECTOR_REFERENCES_47" can't be undefined in a subtraction expression{standard input}:1081:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_46" minus "L00000000008$pb"{standard input}:1081:symbol: "L_OBJC_SELECTOR_REFERENCES_46" can't be undefined in a subtraction expression{standard input}:1080:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_46" minus "L00000000008$pb"{standard input}:1080:symbol: "L_OBJC_SELECTOR_REFERENCES_46" can't be undefined in a subtraction expression{standard input}:1072:non-relocatable subtraction expression, "LC11" minus "L00000000008$pb"{standard input}:1072:symbol: "LC11" can't be undefined in a subtraction expression{standard input}:1071:non-relocatable subtraction expression, "LC11" minus "L00000000008$pb"{standard input}:1071:symbol: "LC11" can't be undefined in a subtraction expression{standard input}:1069:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_45" minus "L00000000008$pb"{standard input}:1069:symbol: "L_OBJC_SELECTOR_REFERENCES_45" can't be undefined in a subtraction expression{standard input}:1068:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_45" minus "L00000000008$pb"{standard input}:1068:symbol: "L_OBJC_SELECTOR_REFERENCES_45" can't be undefined in a subtraction expression{standard input}:1062:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_44" minus "L00000000008$pb"{standard input}:1062:symbol: "L_OBJC_SELECTOR_REFERENCES_44" can't be undefined in a subtraction expression{standard input}:1061:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_44" minus "L00000000008$pb"{standard input}:1061:symbol: "L_OBJC_SELECTOR_REFERENCES_44" can't be undefined in a subtraction expression{standard input}:1058:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_9" minus "L00000000008$pb"{standard input}:1058:symbol: "L_OBJC_CLASS_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:1057:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_9" minus "L00000000008$pb"{standard input}:1057:symbol: "L_OBJC_CLASS_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:1049:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_43" minus "L00000000008$pb"{standard input}:1049:symbol: "L_OBJC_SELECTOR_REFERENCES_43" can't be undefined in a subtraction expression{standard input}:1048:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_43" minus "L00000000008$pb"{standard input}:1048:symbol: "L_OBJC_SELECTOR_REFERENCES_43" can't be undefined in a subtraction expression{standard input}:1037:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_42" minus "L00000000008$pb"{standard input}:1037:symbol: "L_OBJC_SELECTOR_REFERENCES_42" can't be undefined in a subtraction expression{standard input}:1036:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_42" minus "L00000000008$pb"{standard input}:1036:symbol: "L_OBJC_SELECTOR_REFERENCES_42" can't be undefined in a subtraction expression{standard input}:1029:non-relocatable subtraction expression, "LC10" minus "L00000000008$pb"{standard input}:1029:symbol: "LC10" can't be undefined in a subtraction expression{standard input}:1028:non-relocatable subtraction expression, "LC10" minus "L00000000008$pb"{standard input}:1028:symbol: "LC10" can't be undefined in a subtraction expression{standard input}:1020:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000008$pb"{standard input}:1020:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:1019:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000008$pb"{standard input}:1019:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:1004:non-relocatable subtraction expression, "LC9" minus "L00000000008$pb"{standard input}:1004:symbol: "LC9" can't be undefined in a subtraction expression{standard input}:1003:non-relocatable subtraction expression, "LC9" minus "L00000000008$pb"{standard input}:1003:symbol: "LC9" can't be undefined in a subtraction expression{standard input}:1001:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_40" minus "L00000000008$pb"{standard input}:1001:symbol: "L_OBJC_SELECTOR_REFERENCES_40" can't be undefined in a subtraction expression{standard input}:1000:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_40" minus "L00000000008$pb"{standard input}:1000:symbol: "L_OBJC_SELECTOR_REFERENCES_40" can't be undefined in a subtraction expression{standard input}:998:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_8" minus "L00000000008$pb"{standard input}:998:symbol: "L_OBJC_CLASS_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:997:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_8" minus "L00000000008$pb"{standard input}:997:symbol: "L_OBJC_CLASS_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:995:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_41" minus "L00000000008$pb"{standard input}:995:symbol: "L_OBJC_SELECTOR_REFERENCES_41" can't be undefined in a subtraction expression{standard input}:994:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_41" minus "L00000000008$pb"{standard input}:994:symbol: "L_OBJC_SELECTOR_REFERENCES_41" can't be undefined in a subtraction expression{standard input}:985:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_39" minus "L00000000008$pb"{standard input}:985:symbol: "L_OBJC_SELECTOR_REFERENCES_39" can't be undefined in a subtraction expression{standard input}:984:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_39" minus "L00000000008$pb"{standard input}:984:symbol: "L_OBJC_SELECTOR_REFERENCES_39" can't be undefined in a subtraction expression{standard input}:977:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000008$pb"{standard input}:977:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression{standard input}:976:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000008$pb"{standard input}:976:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression{standard input}:969:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_37" minus "L00000000008$pb"{standard input}:969:symbol: "L_OBJC_SELECTOR_REFERENCES_37" can't be undefined in a subtraction expression{standard input}:968:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_37" minus "L00000000008$pb"{standard input}:968:symbol: "L_OBJC_SELECTOR_REFERENCES_37" can't be undefined in a subtraction expression{standard input}:965:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000008$pb"{standard input}:965:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:964:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000008$pb"{standard input}:964:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:898:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000007$pb"{standard input}:898:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:897:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000007$pb"{standard input}:897:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:883:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_36" minus "L00000000007$pb"{standard input}:883:symbol: "L_OBJC_SELECTOR_REFERENCES_36" can't be undefined in a subtraction expression{standard input}:882:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_36" minus "L00000000007$pb"{standard input}:882:symbol: "L_OBJC_SELECTOR_REFERENCES_36" can't be undefined in a subtraction expression{standard input}:878:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000007$pb"{standard input}:878:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression{standard input}:877:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000007$pb"{standard input}:877:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression{standard input}:868:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000007$pb"{standard input}:868:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:867:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000007$pb"{standard input}:867:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:853:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_34" minus "L00000000007$pb"{standard input}:853:symbol: "L_OBJC_SELECTOR_REFERENCES_34" can't be undefined in a subtraction expression{standard input}:852:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_34" minus "L00000000007$pb"{standard input}:852:symbol: "L_OBJC_SELECTOR_REFERENCES_34" can't be undefined in a subtraction expression{standard input}:848:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000007$pb"{standard input}:848:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression{standard input}:847:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000007$pb"{standard input}:847:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression{standard input}:838:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000007$pb"{standard input}:838:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:837:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000007$pb"{standard input}:837:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:829:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000007$pb"{standard input}:829:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression{standard input}:828:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000007$pb"{standard input}:828:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression{standard input}:825:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000007$pb"{standard input}:825:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:824:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000007$pb"{standard input}:824:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:816:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000007$pb"{standard input}:816:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression{standard input}:815:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000007$pb"{standard input}:815:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression{standard input}:812:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000007$pb"{standard input}:812:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:811:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000007$pb"{standard input}:811:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:738:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000006$pb"{standard input}:738:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression{standard input}:737:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000006$pb"{standard input}:737:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression{standard input}:672:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000005$pb"{standard input}:672:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression{standard input}:671:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000005$pb"{standard input}:671:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression{standard input}:663:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000005$pb"{standard input}:663:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression{standard input}:662:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000005$pb"{standard input}:662:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression{standard input}:654:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000005$pb"{standard input}:654:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression{standard input}:653:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000005$pb"{standard input}:653:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression{standard input}:645:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"{standard input}:645:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:644:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"{standard input}:644:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:636:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"{standard input}:636:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:635:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"{standard input}:635:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:627:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"{standard input}:627:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:626:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"{standard input}:626:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:618:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000005$pb"{standard input}:618:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression{standard input}:617:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000005$pb"{standard input}:617:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression{standard input}:615:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000005$pb"{standard input}:615:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:614:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000005$pb"{standard input}:614:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:605:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000005$pb"{standard input}:605:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:604:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000005$pb"{standard input}:604:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:595:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000005$pb"{standard input}:595:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:594:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000005$pb"{standard input}:594:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:587:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000005$pb"{standard input}:587:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:586:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000005$pb"{standard input}:586:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:583:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000005$pb"{standard input}:583:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:582:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000005$pb"{standard input}:582:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:545:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000004$pb"{standard input}:545:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression{standard input}:544:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000004$pb"{standard input}:544:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression{standard input}:536:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000004$pb"{standard input}:536:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression{standard input}:535:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000004$pb"{standard input}:535:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression{standard input}:527:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000004$pb"{standard input}:527:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression{standard input}:526:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000004$pb"{standard input}:526:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression{standard input}:518:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000004$pb"{standard input}:518:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:517:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000004$pb"{standard input}:517:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:509:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000004$pb"{standard input}:509:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:508:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000004$pb"{standard input}:508:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:500:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"{standard input}:500:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:499:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"{standard input}:499:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:491:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"{standard input}:491:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:490:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"{standard input}:490:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:488:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"{standard input}:488:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:487:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"{standard input}:487:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:478:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000004$pb"{standard input}:478:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:477:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000004$pb"{standard input}:477:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:468:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000004$pb"{standard input}:468:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:467:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000004$pb"{standard input}:467:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:460:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000004$pb"{standard input}:460:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:459:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000004$pb"{standard input}:459:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:456:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000004$pb"{standard input}:456:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:455:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000004$pb"{standard input}:455:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:418:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"{standard input}:418:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:417:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"{standard input}:417:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:408:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000003$pb"{standard input}:408:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:407:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000003$pb"{standard input}:407:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:399:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000003$pb"{standard input}:399:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:398:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000003$pb"{standard input}:398:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:389:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000003$pb"{standard input}:389:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:388:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000003$pb"{standard input}:388:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:378:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"{standard input}:378:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:377:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"{standard input}:377:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:368:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"{standard input}:368:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:367:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"{standard input}:367:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:350:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"{standard input}:350:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:349:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"{standard input}:349:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:342:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:342:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:341:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:341:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:338:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000003$pb"{standard input}:338:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:337:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000003$pb"{standard input}:337:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:329:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"{standard input}:329:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:328:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"{standard input}:328:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:315:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"{standard input}:315:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:314:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"{standard input}:314:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:307:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:307:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:306:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:306:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:303:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000003$pb"{standard input}:303:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:302:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000003$pb"{standard input}:302:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:294:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"{standard input}:294:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:293:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"{standard input}:293:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:284:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"{standard input}:284:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:283:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"{standard input}:283:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:280:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000003$pb"{standard input}:280:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:279:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000003$pb"{standard input}:279:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:241:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:241:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:240:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:240:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:230:non-relocatable subtraction expression, "L_NSTIFFPboardType$non_lazy_ptr" minus "L00000000002$pb"{standard input}:230:symbol: "L_NSTIFFPboardType$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:229:non-relocatable subtraction expression, "L_NSTIFFPboardType$non_lazy_ptr" minus "L00000000002$pb"{standard input}:229:symbol: "L_NSTIFFPboardType$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:223:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:223:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:222:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:222:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:218:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:218:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:208:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"{standard input}:208:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:207:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"{standard input}:207:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:192:non-relocatable subtraction expression, "L_NSTIFFPboardType$non_lazy_ptr" minus "L00000000002$pb"{standard input}:192:symbol: "L_NSTIFFPboardType$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:191:non-relocatable subtraction expression, "L_NSTIFFPboardType$non_lazy_ptr" minus "L00000000002$pb"{standard input}:191:symbol: "L_NSTIFFPboardType$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:189:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:189:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:188:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:188:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:185:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000002$pb"{standard input}:185:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:184:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000002$pb"{standard input}:184:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:176:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:176:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:175:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:175:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:172:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000002$pb"{standard input}:172:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:171:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000002$pb"{standard input}:171:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:160:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:160:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:159:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:159:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:152:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:152:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:151:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:151:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:148:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000002$pb"{standard input}:148:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:147:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000002$pb"{standard input}:147:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:82:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:82:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:72:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:72:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:71:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:71:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:64:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:64:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:63:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:63:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_NSTIFFPboardType$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_30{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_31{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_32{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_33{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_35{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_34{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_36{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_37{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_38{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_39{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_41{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_40{standard input}:unknown:Undefined local symbol LC9{standard input}:unknown:Undefined local symbol LC10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_42{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_43{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_44{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_45{standard input}:unknown:Undefined local symbol LC11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_46{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_47{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_48{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_49{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_51{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_50{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_52{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_533(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313271338#126#235#0(6@66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271037#147#0#147#0#0"0(4@51"Incompatible type for argument 1 of 'initWithSize:'313271338#361#131#0(6@66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271037#148#0#148#0#0"0(4@52"Incompatible type for argument 1 of 'cropWithFrame:'313271338#492#132#0(6@66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271037#187#0#187#0#0"0(0#0#66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m8629432608#1685"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/ppc -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/SimpleScreenshotAppDelegate.o1#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/TransView.o /Users/alex/Desktop/SimpleScreenshot/TransView.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313271338.977528
+e313271339.109134
+r0
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/TransView.o
+x/Users/alex/Desktop/SimpleScreenshot/TransView.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/TransView.m: In function '-[TransView drawRect:]':
+o/Users/alex/Desktop/SimpleScreenshot/TransView.m:30: error: incompatible type for argument 2 of 'CGContextClearRect'
+o{standard input}:74:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:74:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:73:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:73:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:69:non-relocatable subtraction expression, "L_OBJC_CLASS_TransView" minus "L00000000001$pb"
+o{standard input}:69:symbol: "L_OBJC_CLASS_TransView" can't be undefined in a subtraction expression
+o{standard input}:68:non-relocatable subtraction expression, "L_OBJC_CLASS_TransView" minus "L00000000001$pb"
+o{standard input}:68:symbol: "L_OBJC_CLASS_TransView" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_TransView
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+lSLF07#2@56"Compile /Users/alex/Desktop/SimpleScreenshot/TransView.m313271338#313271339#0(1213"/Users/alex/Desktop/SimpleScreenshot/TransView.m: In function '-[TransView drawRect:]':/Users/alex/Desktop/SimpleScreenshot/TransView.m:30: error: incompatible type for argument 2 of 'CGContextClearRect'{standard input}:74:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:74:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:73:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:73:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:69:non-relocatable subtraction expression, "L_OBJC_CLASS_TransView" minus "L00000000001$pb"{standard input}:69:symbol: "L_OBJC_CLASS_TransView" can't be undefined in a subtraction expression{standard input}:68:non-relocatable subtraction expression, "L_OBJC_CLASS_TransView" minus "L00000000001$pb"{standard input}:68:symbol: "L_OBJC_CLASS_TransView" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_TransView{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_01(4@56"Incompatible type for argument 2 of 'CGContextClearRect'313271339#88#117#0(6@48"/Users/alex/Desktop/SimpleScreenshot/TransView.m313269872#30#0#30#0#0"0(0#0#48"/Users/alex/Desktop/SimpleScreenshot/TransView.m8634367968#1649"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/ppc -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/TransView.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/TransView.o1#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/main.o /Users/alex/Desktop/SimpleScreenshot/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s313271338.098176
+e313271338.337969
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/main.o
+x/Users/alex/Desktop/SimpleScreenshot/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/alex/Desktop/SimpleScreenshot/main.m313271338#313271338#0(0"0(0#0#43"/Users/alex/Desktop/SimpleScreenshot/main.m8634294432#1639"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/ppc -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/main.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ANImageBitmapRep.o /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313267876.800105
+e313267877.342584
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ANImageBitmapRep.o
+x/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':
+o/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+lSLF07#2@63"Compile /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m313267876#313267877#0(341"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type1(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313267877#117#224#0(6@55"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m313267854#199#0#199#0#0"0(0#0#55"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m8620897088#1662"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ANImageBitmapRep.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ANKeyEvent.o /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312950841.638136
+e312950842.083372
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ANKeyEvent.o
+x/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m312950841#312950842#0(0"0(0#0#49"/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m8652939040#1650"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ANKeyEvent.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/Screenshot.o /Users/alex/Desktop/SimpleScreenshot/Screenshot.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312950841.876528
+e312950842.141927
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/Screenshot.o
+x/Users/alex/Desktop/SimpleScreenshot/Screenshot.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: incomplete implementation of class 'Screenshot'
+o/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: method definition for '-createTIFFImageFileOnDesktop' not found
+lSLF07#2@57"Compile /Users/alex/Desktop/SimpleScreenshot/Screenshot.m312950841#312950842#0(240"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: incomplete implementation of class 'Screenshot'/Users/alex/Desktop/SimpleScreenshot/Screenshot.m:264: warning: method definition for '-createTIFFImageFileOnDesktop' not found2(22@47"Incomplete implementation of class 'Screenshot'312950842#0#112#0(6@49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m296771266#264#0#264#0#38"incomplete implementation of class '*'0(22@63"Method definition for '-createTIFFImageFileOnDesktop' not found312950842#112#128#0(6@49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m296771266#264#0#264#0#35"method definition for '*' not found0(0#0#49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m8663590400#1650"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/Screenshot.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/Screenshot.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ScreenshotMaker.o /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313270450.245988
+e313270450.791269
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ScreenshotMaker.o
+x/Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m313270450#313270450#0(0"0(0#0#54"/Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m8632557888#1660"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/ScreenshotMaker.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshotAppDelegate.o /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313271173.977498
+e313271174.591637
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshotAppDelegate.o
+x/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate cropThread:]':
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:147: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: At top level:
+o/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used
+lSLF07#2@74"Compile /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271173#313271174#0(539"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate cropThread:]':/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:147: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: At top level:/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used3(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313271174#126#235#0(6@66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271037#147#0#147#0#0"0(23@13"At top level:313271174#361#82#0(6@66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271037#0#0#0#0#0"0(22@32"'_curkeyid' defined but not used313271174#443#96#0(6@49"/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h312950545#13#0#13#0#24"'*' defined but not used0(0#0#66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m8625008640#1684"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshotAppDelegate.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/TransView.o /Users/alex/Desktop/SimpleScreenshot/TransView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s313269886.168505
+e313269886.298683
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/TransView.o
+x/Users/alex/Desktop/SimpleScreenshot/TransView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/alex/Desktop/SimpleScreenshot/TransView.m313269886#313269886#0(0"0(0#0#48"/Users/alex/Desktop/SimpleScreenshot/TransView.m8629461664#1648"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/TransView.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/TransView.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/main.o /Users/alex/Desktop/SimpleScreenshot/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312950841.494572
+e312950841.638033
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/main.o
+x/Users/alex/Desktop/SimpleScreenshot/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/alex/Desktop/SimpleScreenshot/main.m312950841#312950841#0(0"0(0#0#43"/Users/alex/Desktop/SimpleScreenshot/main.m8664071328#1638"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/main.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib
+s313271612.366550
+e313271612.752870
+r1
+xCompileXIB
+x/Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib313271612#313271612#0(0"0(0#0#63"/Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib8626463328#397"    cd /Users/alex/Desktop/SimpleScreenshot    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/MainMenu.nib /Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk0#
+
+CCopyStringsFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s313271612.365820
+e313271612.393364
+r1
+xCopyStringsFile
+x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings313271612#313271612#0(0"0(0#0#68"/Users/alex/Desktop/SimpleScreenshot/English.lproj/InfoPlist.strings8627168192#385"    cd /Users/alex/Desktop/SimpleScreenshot    setenv ICONV /usr/bin/iconv    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj0#
+
+CCopyTiffFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff loader.tiff
+s313271612.394235
+e313271612.416885
+r1
+xCopyTiffFile
+x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff
+xloader.tiff
+lSLF07#2@16"Copy loader.tiff313271612#313271612#0(0"0(0#0#48"/Users/alex/Desktop/SimpleScreenshot/loader.tiff8626218944#259"    cd /Users/alex/Desktop/SimpleScreenshot    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff loader.tiff --outdir /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources0#
+
+CCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/icon.icns icon.icns
+s313271612.393459
+e313271612.398874
+r1
+xCpResource
+xbuild/Debug/SimpleScreenshot.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns313271612#313271612#0(0"0(0#0#46"/Users/alex/Desktop/SimpleScreenshot/icon.icns8626305760#357"    cd /Users/alex/Desktop/SimpleScreenshot    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/SimpleScreenshot/icon.icns /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources0#
+
+CCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/smallicon.png smallicon.png
+s313271612.417676
+e313271612.422110
+r1
+xCpResource
+xbuild/Debug/SimpleScreenshot.app/Contents/Resources/smallicon.png
+xsmallicon.png
+lSLF07#2@18"Copy smallicon.png313271612#313271612#0(0"0(0#0#50"/Users/alex/Desktop/SimpleScreenshot/smallicon.png8625469184#361"    cd /Users/alex/Desktop/SimpleScreenshot    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/SimpleScreenshot/smallicon.png /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources0#
+
+CCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/spinner.gif spinner.gif
+s313271612.417123
+e313271612.421966
+r1
+xCpResource
+xbuild/Debug/SimpleScreenshot.app/Contents/Resources/spinner.gif
+xspinner.gif
+lSLF07#2@16"Copy spinner.gif313271612#313271612#0(0"0(0#0#48"/Users/alex/Desktop/SimpleScreenshot/spinner.gif8625567456#359"    cd /Users/alex/Desktop/SimpleScreenshot    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/SimpleScreenshot/spinner.gif /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot normal "x86_64 i386 ppc"
+r0
+
+CLd /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot normal i386
+s313271616.822108
+e313271616.859081
+r1
+xLd
+x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot
+xnormal
+xi386
+lSLF07#2@106"Link /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot313271616#313271616#0(0"0(0#0#0"8630583072#657"    cd /Users/alex/Desktop/SimpleScreenshot    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -L/Users/alex/Desktop/SimpleScreenshot/build/Debug -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -filelist /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshot.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework OpenGL -framework Quartz -framework Carbon -o /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot0#
+
+CLd /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot normal x86_64
+s313271174.591988
+e313271174.912889
+r1
+xLd
+x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot
+xnormal
+xx86_64
+lSLF07#2@106"Link /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot313271174#313271174#0(0"0(0#0#0"8635744128#661"    cd /Users/alex/Desktop/SimpleScreenshot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/SimpleScreenshot/build/Debug -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -filelist /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -framework Quartz -framework Carbon -o /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot0#
+
+CLd /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshot normal i386
+r0
+
+CLd /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/SimpleScreenshot normal ppc
+r0
+
+CLd /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot normal x86_64
+s313271337.084437
+e313271337.143367
+r1
+xLd
+x/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot
+xnormal
+xx86_64
+lSLF07#2@138"Link /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot313271337#313271337#0(0"0(0#0#0"8619467360#693"    cd /Users/alex/Desktop/SimpleScreenshot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/SimpleScreenshot/build/Debug -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -filelist /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -framework Quartz -framework Carbon -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot0#
+
+CProcessInfoPlistFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Info.plist SimpleScreenshot-Info.plist
+s313271612.360858
+e313271612.365727
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Info.plist
+xSimpleScreenshot-Info.plist
+lSLF07#2@35"Process SimpleScreenshot-Info.plist313271612#313271612#0(0"0(0#0#64"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot-Info.plist8630166816#331"    cd /Users/alex/Desktop/SimpleScreenshot    builtin-infoPlistUtility SimpleScreenshot-Info.plist -genpkginfo /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch.gch SimpleScreenshot_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312950838.332530
+e312950841.494368
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch.gch
+xSimpleScreenshot_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile SimpleScreenshot_Prefix.pch312950838#312950841#0(0"0(0#0#64"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch8650216096#1537"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/x86_64 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -c /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch.gch SimpleScreenshot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313271612.753150
+e313271615.808408
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch.gch
+xSimpleScreenshot_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile SimpleScreenshot_Prefix.pch313271612#313271615#0(0"0(0#0#64"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch8634343392#1533"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -c /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-duafzuhyuimekkdjfgypfuhtgplw/SimpleScreenshot_Prefix.pch.gch SimpleScreenshot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313271366.353016
+e313271369.638809
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-duafzuhyuimekkdjfgypfuhtgplw/SimpleScreenshot_Prefix.pch.gch
+xSimpleScreenshot_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile SimpleScreenshot_Prefix.pch313271366#313271369#0(0"0(0#0#64"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch8633119712#1533"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -c /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-duafzuhyuimekkdjfgypfuhtgplw/SimpleScreenshot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch.gch SimpleScreenshot_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s313271330.568215
+e313271336.829716
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch.gch
+xSimpleScreenshot_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile SimpleScreenshot_Prefix.pch313271330#313271336#0(0"0(0#0#64"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch8631394560#1541"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/ppc -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -c /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch.gch0#
+
+CTouch /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app
+s313271616.859179
+e313271616.862219
+r1
+xTouch
+x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app
+lSLF07#2@75"Touch /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app313271616#313271616#0(0"0(0#0#0"8636589056#136"    cd /Users/alex/Desktop/SimpleScreenshot    /usr/bin/touch -c /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app0#
+

@@ -1,0 +1,1 @@
+This is a simple Mac Os X application that allows the user to lasso a certain part of the screen for a screenshot.  It also includes a keystroke to take a screenshot and put it into your clipboard (by pressing Shift+Command+5).  The lasso selection option can be initiated by pressing Shift+Command+6 or by going into the system bar item that it places on your apple menu.
