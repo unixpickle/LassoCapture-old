@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "Screenshot.h"
 #import "ANImageBitmapRep.h"
+#import "SettingsController.h"
 
 typedef struct {
 	CGPoint * points_b;
@@ -32,6 +33,8 @@ typedef struct {
 	NSImage * screenshotImage;
 	PointArray points; // used for storing points
 	// this will crop our image
+	float thickness;
+	float components[4];
 	id<ScreenshotMakerDelegate> delegate;	
 }
 @property (nonatomic, assign) id<ScreenshotMakerDelegate> delegate;

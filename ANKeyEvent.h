@@ -9,9 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import <Carbon/Carbon.h>
 
-#ifndef _curkeyid
-static int _curkeyid;
-#endif
+
 
 @interface ANKeyEvent : NSObject {
 	EventHotKeyRef myHotKeyRef;
@@ -26,6 +24,7 @@ static int _curkeyid;
 	id target;
 	SEL selector;
 }
++ (NSMutableArray *)keyEvents;
 + (int)keyCodeForString:(NSString *)str;
 - (void)registerEvent;
 - (void)unregisterEvent;

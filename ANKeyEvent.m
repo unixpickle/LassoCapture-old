@@ -6,6 +6,10 @@
 //  Copyright 2010 Apple Inc. All rights reserved.
 //
 
+#ifndef _curkeyid
+static int _curkeyid;
+#endif
+
 #import "ANKeyEvent.h"
 
 static OSStatus myHotKeyHandler(EventHandlerCallRef nextHandler, EventRef anEvent, void *userData) {
@@ -24,6 +28,12 @@ static OSStatus myHotKeyHandler(EventHandlerCallRef nextHandler, EventRef anEven
 @synthesize key_code;
 @synthesize selector, target;
 @synthesize isRegistered;
+
++ (NSMutableArray *)keyEvents {
+	static NSMutableArray * events = nil;
+	if (!events) events = [[NSMutableArray alloc] init];
+	return events;
+}
 
 + (int)keyCodeForString:(NSString *)str {
 	NSDictionary * keys = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"keys" ofType:@"plist"]];
@@ -51,6 +61,7 @@ static OSStatus myHotKeyHandler(EventHandlerCallRef nextHandler, EventRef anEven
 		myHotKeyID.id = _curkeyid;
 		_curkeyid++;
 		self.isRegistered = NO;
+		[[ANKeyEvent keyEvents] addObject:self];
 	}
 	return self;
 }
@@ -69,5 +80,10 @@ static OSStatus myHotKeyHandler(EventHandlerCallRef nextHandler, EventRef anEven
 	self.isRegistered = NO;
 	[[NSNotificationCenter defaultCenter] removeObserver:target name:[NSString stringWithFormat:@"key:%d", myHotKeyID.id] object:nil];
 	UnregisterEventHotKey(myHotKeyRef);
+}
+- (void)dealloc {
+	[self unregisterEvent];
+	[[ANKeyEvent keyEvents] removeObject:self];
+	[super edalloc];
 }
 @end

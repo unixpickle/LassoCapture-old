@@ -20,7 +20,7 @@
     imageRect.size.width = CGImageGetWidth(image);
 	
     // Create a new image to receive the Quartz image data.
-    newImage = [[[NSImage alloc] initWithSize:imageRect.size] autorelease];
+    newImage = [[NSImage alloc] initWithSize:imageRect.size];
     [newImage lockFocus];
 	
     // Get the Quartz context and draw.
@@ -29,7 +29,10 @@
     CGContextDrawImage(imageContext, * (CGRect *)&imageRect, image);
     [newImage unlockFocus];
 	
-    return newImage;
+	NSImage * returnImage = [[NSImage alloc] initWithData:[newImage TIFFRepresentation]];
+	[newImage release];
+	
+    return [returnImage autorelease];
 }
 + (NSImage *)captureAllScreens {
 	// read through all displays
@@ -68,7 +71,7 @@
 	NSImage * newImage = [[NSImage alloc] initWithData:d];
 	[image release];
 	// now we have our large image
-	return newImage;
+	return [newImage autorelease];
 }
 + (NSImage *)captureScreen {
 	

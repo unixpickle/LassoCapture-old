@@ -18,12 +18,13 @@
 }
 - (void)clearBitmap;
 - (void)setChanged;
-+ (CGImageRef)CGImageForNSImage:(NSImage *)_img;
++ (CGImageRef)CGImageForNSImage:(id)_img;
 + (NSImage*)NSImageFromCGImageRef:(CGImageRef)image;
 + (CGContextRef)CreateARGBBitmapContextWithSize:(CGSize)size;
 + (CGContextRef)CreateARGBBitmapContextWithImage:(CGImageRef)image;
 - (id)initWithImage:(NSImage *)_img;
 - (id)initWithSize:(NSSize)size;
+- (void)invertColors;
 - (ANImageBitmapRep *)cropWithFrame:(CGRect)frm;
 + (id)imageBitmapRepWithImage:(NSImage *)_img;
 + (id)imageBitmapRepNamed:(NSString *)_resourceName;

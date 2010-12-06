@@ -23,7 +23,7 @@
     imageRect.size.width = CGImageGetWidth(image);
 	
     // Create a new image to receive the Quartz image data.
-    newImage = [[[NSImage alloc] initWithSize:imageRect.size] retain];
+    newImage = [[[NSImage alloc] initWithSize:imageRect.size] autorelease];
     [newImage lockFocus];
 	
     // Get the Quartz context and draw.
@@ -158,11 +158,12 @@
 	}
 	return self;
 }
-- (id)initWithImage:(NSImage *)_img {
+- (id)initWithImage:(id)mimg {
 	if (self = [super init]) {
+		NSImage * _img = (NSImage *)mimg;
 		// load the image into the context
 		img = [ANImageBitmapRep CGImageForNSImage:_img];
-		CGImageRetain(img);
+		//CGImageRetain(img);
 		ctx = [ANImageBitmapRep CreateARGBBitmapContextWithImage:img];
 		changed = NO;
 		bitmapData = CGBitmapContextGetData(ctx);
@@ -177,6 +178,21 @@
 		bitmapData = CGBitmapContextGetData(ctx);
 	}
 	return self;
+}
+- (void)invertColors {
+	int width = CGBitmapContextGetWidth(ctx);
+	int height = CGBitmapContextGetHeight(ctx);
+	for (int x = 0; x < width; x++) {
+		for (int y = 0; y < height; y++) {
+			float pxl[4];
+			[self getPixel:pxl atX:x y:y];
+			pxl[0] = 1 - pxl[0];
+			pxl[1] = 1 - pxl[1];
+			pxl[2] = 1 - pxl[2];
+			[self setPixel:pxl atX:x y:y];
+		}
+	}
+	[self setChanged];
 }
 - (ANImageBitmapRep *)cropWithFrame:(CGRect)r {
 	CGRect rbounds = CGRectMake(0, 0, r.size.width, r.size.height);
@@ -196,7 +212,7 @@
 	return [retI autorelease];
 }
 + (id)imageBitmapRepWithImage:(NSImage *)_img {
-	return [[[ANImageBitmapRep alloc] initWithImage:_img] autorelease];
+	return [[[ANImageBitmapRep alloc] initWithImage:(id)_img] autorelease];
 }
 + (id)imageBitmapRepNamed:(NSString *)_resourceName {
 	// we wanna use an autorelease pool here
@@ -217,7 +233,7 @@
 	pxl[3] = ((float)(c[0])) / 255.0f;
 	
 	if (pxl[3] <= 0) {
-		NSLog(@"Got %f from %d", pxl[3], c[0]);
+		//NSLog(@"Got %f from %d", pxl[3], c[0]);
 	}
 
 	if (pxl[0] > 1) pxl[0] = 1;

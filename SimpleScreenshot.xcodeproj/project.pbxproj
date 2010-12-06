@@ -21,6 +21,9 @@
 		FA3A50C612A740DE0042F6D2 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FA3A50C512A740DE0042F6D2 /* icon.icns */; };
 		FA3A511312A748630042F6D2 /* ScreenshotMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A511212A748630042F6D2 /* ScreenshotMaker.m */; };
 		FA647B3112AC00DB00C062E4 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */; };
+		FACCF83212AD92C90005524E /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACCF83112AD92C90005524E /* SettingsController.m */; };
+		FACCF83612AD99490005524E /* default.plist in Resources */ = {isa = PBXBuildFile; fileRef = FACCF83512AD99490005524E /* default.plist */; };
+		FACCF93012ADA8260005524E /* KeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FACCF92F12ADA8260005524E /* KeyWindow.m */; };
 		FAD952FF12AC1BB000B6E184 /* loader.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FAD952FE12AC1BB000B6E184 /* loader.tiff */; };
 		FAD9532C12AC1E2E00B6E184 /* TransView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD9532B12AC1E2E00B6E184 /* TransView.m */; };
 		FAD9536612AC201B00B6E184 /* spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = FAD9536512AC201B00B6E184 /* spinner.gif */; };
@@ -54,6 +57,11 @@
 		FA3A511212A748630042F6D2 /* ScreenshotMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotMaker.m; sourceTree = "<group>"; };
 		FA647B2F12AC00DA00C062E4 /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
 		FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
+		FACCF83012AD92C90005524E /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		FACCF83112AD92C90005524E /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		FACCF83512AD99490005524E /* default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = default.plist; sourceTree = "<group>"; };
+		FACCF92E12ADA8260005524E /* KeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyWindow.h; sourceTree = "<group>"; };
+		FACCF92F12ADA8260005524E /* KeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyWindow.m; sourceTree = "<group>"; };
 		FAD952FE12AC1BB000B6E184 /* loader.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = loader.tiff; sourceTree = "<group>"; };
 		FAD9532A12AC1E2E00B6E184 /* TransView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransView.h; sourceTree = "<group>"; };
 		FAD9532B12AC1E2E00B6E184 /* TransView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransView.m; sourceTree = "<group>"; };
@@ -79,20 +87,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FA647B2F12AC00DA00C062E4 /* ANImageBitmapRep.h */,
-				FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */,
-				FA3A4FCC12A73DAB0042F6D2 /* Screenshot.h */,
-				FA3A4FCD12A73DAB0042F6D2 /* Screenshot.m */,
-				FA3A4FBA12A73D9A0042F6D2 /* ANKeyEvent.h */,
-				FA3A4FBB12A73D9A0042F6D2 /* ANKeyEvent.m */,
+				FACCF97012ADABA60005524E /* Utilities */,
+				FACCF96F12ADAB920005524E /* Custom Views */,
 				256AC3D80F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */,
-				FA3A511112A748630042F6D2 /* ScreenshotMaker.h */,
-				FA3A511212A748630042F6D2 /* ScreenshotMaker.m */,
-				FAD9532A12AC1E2E00B6E184 /* TransView.h */,
-				FAD9532B12AC1E2E00B6E184 /* TransView.m */,
-				FA0444F112AC7840008F0B87 /* ANMultiScreenManager.h */,
-				FA0444F212AC7840008F0B87 /* ANMultiScreenManager.m */,
+				FACCF83012AD92C90005524E /* SettingsController.h */,
+				FACCF83112AD92C90005524E /* SettingsController.m */,
+				FACCF92E12ADA8260005524E /* KeyWindow.h */,
+				FACCF92F12ADA8260005524E /* KeyWindow.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -157,6 +159,7 @@
 				8D1107310486CEB800E47090 /* SimpleScreenshot-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				FACCF83512AD99490005524E /* default.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -168,6 +171,32 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FACCF96F12ADAB920005524E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A511112A748630042F6D2 /* ScreenshotMaker.h */,
+				FA3A511212A748630042F6D2 /* ScreenshotMaker.m */,
+				FAD9532A12AC1E2E00B6E184 /* TransView.h */,
+				FAD9532B12AC1E2E00B6E184 /* TransView.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		FACCF97012ADABA60005524E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FA0444F112AC7840008F0B87 /* ANMultiScreenManager.h */,
+				FA0444F212AC7840008F0B87 /* ANMultiScreenManager.m */,
+				FA647B2F12AC00DA00C062E4 /* ANImageBitmapRep.h */,
+				FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */,
+				FA3A4FCC12A73DAB0042F6D2 /* Screenshot.h */,
+				FA3A4FCD12A73DAB0042F6D2 /* Screenshot.m */,
+				FA3A4FBA12A73D9A0042F6D2 /* ANKeyEvent.h */,
+				FA3A4FBB12A73D9A0042F6D2 /* ANKeyEvent.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +227,6 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleScreenshot" */;
 			compatibilityVersion = "Xcode 3.1";
-			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -226,6 +254,7 @@
 				FAD952FF12AC1BB000B6E184 /* loader.tiff in Resources */,
 				FAD9536612AC201B00B6E184 /* spinner.gif in Resources */,
 				FAD9539712AC238400B6E184 /* smallicon.png in Resources */,
+				FACCF83612AD99490005524E /* default.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +273,8 @@
 				FA647B3112AC00DB00C062E4 /* ANImageBitmapRep.m in Sources */,
 				FAD9532C12AC1E2E00B6E184 /* TransView.m in Sources */,
 				FA0444F312AC7840008F0B87 /* ANMultiScreenManager.m in Sources */,
+				FACCF83212AD92C90005524E /* SettingsController.m in Sources */,
+				FACCF93012ADA8260005524E /* KeyWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

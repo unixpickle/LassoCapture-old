@@ -27,6 +27,16 @@
         // Initialization code here.
 		[self pointsInit];
 		screenshotImage = [[Screenshot captureScreen] retain];
+		thickness = (int)[[[SettingsController sharedSettings] valueForKey:@"lassothickness"] floatValue];
+		NSColor * c = [[SettingsController sharedSettings] colorForKey:@"lassocolor"];
+		
+		[self becomeFirstResponder];
+		
+		components[0] = [c redComponent];
+		components[1] = [c greenComponent];
+		components[2] = [c blueComponent];
+		components[3] = [c alphaComponent];
+		
     }
     return self;
 }
@@ -36,13 +46,17 @@
 }
 
 - (void)keyDown:(NSEvent *)theEvent {
-	NSLog(@"%d", [theEvent keyCode]);
+	if ([theEvent keyCode] == 53) {
+		// close the window
+		[delegate screenshotMakerDoneCrop:self];
+	}
 }
 
 - (void)mouseDown:(NSEvent *)theEvent {
 	// first point
 	NSPoint p = [theEvent locationInWindow];
 	[self addPoint:*(CGPoint *)&p];
+	[self setNeedsDisplay:YES];
 }
 
 - (void)mouseDragged:(NSEvent *)theEvent {
@@ -94,10 +108,12 @@
 	}
 	
 	
-	CGContextSetStrokeColorWithColor(context, CGColorCreateGenericRGB(0, 1, 0, 1));
+	CGColorRef color = CGColorCreateGenericRGB(components[0], components[1], components[2], components[3]);
+	CGContextSetStrokeColorWithColor(context, color);
 	CGContextSetLineCap(context, kCGLineCapRound);
-	CGContextSetLineWidth(context, 5);
+	CGContextSetLineWidth(context, thickness);
 	CGContextStrokePath(context);
+	CGColorRelease(color);
 	
 	CGContextRestoreGState(context);
 }
