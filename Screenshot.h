@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <Quartz/Quartz.h>
+#import "ANMultiScreenManager.h"
 
 @interface Screenshot : NSObject {
 	NSOpenGLContext * mGLContext;
@@ -17,10 +18,13 @@
 - (void)flipImageData;
 - (CGImageRef)createRGBImageFromBufferData;
 
+- (id)initWithScreen:(NSScreen *)scrn;
+
 - (void)readPartialScreenToBuffer:(size_t)width bufferHeight:(size_t)height bufferBaseAddress:(void *)baseAddress;
 - (void)readFullScreenToBuffer;
 - (NSImage *)capturedImage;
 
 + (NSImage *)imageFromCGImageRef:(CGImageRef)image;
 + (NSImage *)captureScreen;
++ (NSImage *)captureAllScreens;
 @end

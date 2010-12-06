@@ -1,25 +1,26 @@
 TSimpleScreenshot
 v7
 r0
-t313271643.568034
+t313295225.616995
 cCheck dependencies
-cProcessInfoPlistFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Info.plist SimpleScreenshot-Info.plist
-cCopyStringsFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib
+cProcessInfoPlistFile /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Info.plist SimpleScreenshot-Info.plist
+cCopyStringsFile /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/alex/xCode/git/LassoCapture/English.lproj/MainMenu.xib
 cCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/icon.icns icon.icns
-cCopyTiffFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff loader.tiff
+cCopyTiffFile /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff loader.tiff
 cCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/spinner.gif spinner.gif
 cCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/smallicon.png smallicon.png
-cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch.gch SimpleScreenshot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o /Users/alex/Desktop/SimpleScreenshot/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o /Users/alex/Desktop/SimpleScreenshot/Screenshot.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o /Users/alex/Desktop/SimpleScreenshot/TransView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot normal i386
-cTouch /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch.gch SimpleScreenshot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o /Users/alex/xCode/git/LassoCapture/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o /Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o /Users/alex/xCode/git/LassoCapture/ANKeyEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o /Users/alex/xCode/git/LassoCapture/Screenshot.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o /Users/alex/xCode/git/LassoCapture/ScreenshotMaker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o /Users/alex/xCode/git/LassoCapture/TransView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANMultiScreenManager.o /Users/alex/xCode/git/LassoCapture/ANMultiScreenManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot normal i386
+cTouch /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app
 
 N/System/Library/Frameworks/Cocoa.framework/Cocoa
 c000000004A1F2D63000000000000A5E0
@@ -302,6 +303,222 @@ c000000004CFBE88C00000000000095E1
 t1291577484
 s38369
 
+N/Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.h
+c000000004CFBED600000000000000454
+t1291578720
+s1108
+i<Foundation/Foundation.h>
+i<Quartz/Quartz.h>
+
+N/Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m
+c000000004CFBED77000000000000290C
+t1291578743
+s10508
+i"ANImageBitmapRep.h"
+
+N/Users/alex/xCode/git/LassoCapture/ANKeyEvent.h
+c000000004CF7079100000000000003B1
+t1291257745
+s945
+i<Cocoa/Cocoa.h>
+i<Carbon/Carbon.h>
+
+N/Users/alex/xCode/git/LassoCapture/ANKeyEvent.m
+c000000004CF707A90000000000000990
+t1291257769
+s2448
+i"ANKeyEvent.h"
+
+N/Users/alex/xCode/git/LassoCapture/ANMultiScreenManager.h
+c000000004CFC40CE0000000000000110
+t1291600078
+s272
+i<Foundation/Foundation.h>
+
+N/Users/alex/xCode/git/LassoCapture/ANMultiScreenManager.m
+c000000004CFC451D0000000000000421
+t1291601181
+s1057
+i"ANMultiScreenManager.h"
+
+N/Users/alex/xCode/git/LassoCapture/English.lproj/InfoPlist.strings
+c000000004CF70602000000000000002D
+t1291257346
+s45
+
+N/Users/alex/xCode/git/LassoCapture/English.lproj/MainMenu.xib
+c000000004CFBE8B400000000000315D4
+t1291577524
+s202196
+
+N/Users/alex/xCode/git/LassoCapture/Screenshot.h
+c000000004CFC48D900000000000002EE
+t1291602137
+s750
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i"ANMultiScreenManager.h"
+
+N/Users/alex/xCode/git/LassoCapture/Screenshot.m
+c000000004CFC49780000000000002B58
+t1291602296
+s11096
+i"Screenshot.h"
+
+N/Users/alex/xCode/git/LassoCapture/ScreenshotMaker.h
+c000000004CFBD0180000000000000333
+t1291571224
+s819
+i<Cocoa/Cocoa.h>
+i"Screenshot.h"
+i"ANImageBitmapRep.h"
+
+N/Users/alex/xCode/git/LassoCapture/ScreenshotMaker.m
+c000000004CFBE9300000000000000C0B
+t1291577648
+s3083
+i"ScreenshotMaker.h"
+i"Screenshot.h"
+
+N/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.h
+c000000004CFC44600000000000000309
+t1291600992
+s777
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i"Screenshot.h"
+i"ANKeyEvent.h"
+i"ANImageBitmapRep.h"
+i"ScreenshotMaker.h"
+i"ANMultiScreenManager.h"
+
+N/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m
+c000000004CFC49BD0000000000001D87
+t1291602365
+s7559
+i"SimpleScreenshotAppDelegate.h"
+
+N/Users/alex/xCode/git/LassoCapture/SimpleScreenshot_Prefix.pch
+c000000004CF7060200000000000000A3
+t1291257346
+s163
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/git/LassoCapture/TransView.h
+c000000004CFBE6FD00000000000000D4
+t1291577085
+s212
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/git/LassoCapture/TransView.m
+c000000004CFBED8B00000000000002CA
+t1291578763
+s714
+i"TransView.h"
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app
+t1291602368
+s102
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Info.plist
+t1291578812
+s1057
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot
+t1291602368
+s66100
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/PkgInfo
+t1291578812
+s8
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1291578812
+s92
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/MainMenu.nib
+t1291578812
+s36557
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/icon.icns
+t1291578812
+s47191
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff
+t1291578812
+s160202
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/smallicon.png
+t1291578812
+s1686
+
+N/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/spinner.gif
+t1291578812
+s38369
+
+N/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o
+t1291600982
+s32652
+
+N/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o
+t1291600981
+s21660
+
+N/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANMultiScreenManager.o
+t1291601182
+s8280
+
+N/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o
+t1291602299
+s34552
+
+N/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o
+t1291602138
+s23340
+
+N/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshot.LinkFileList
+c000000004CFC4450000000000000040F
+t1291600976
+s1039
+
+N/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o
+t1291602368
+s43668
+
+N/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o
+t1291600982
+s14400
+
+N/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o
+t1291600981
+s4876
+
+N/Users/alex/xCode/git/LassoCapture/icon.icns
+c000000004CF70959000000000000B857
+t1291258201
+s47191
+
+N/Users/alex/xCode/git/LassoCapture/loader.tiff
+c000000004CFBE42300000000000271CA
+t1291576355
+s160202
+
+N/Users/alex/xCode/git/LassoCapture/main.m
+c000000004CF706020000000000000105
+t1291257346
+s261
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/git/LassoCapture/smallicon.png
+c000000004CFBEC660000000000000696
+t1291578470
+s1686
+
+N/Users/alex/xCode/git/LassoCapture/spinner.gif
+c000000004CFBE88C00000000000095E1
+t1291577484
+s38369
+
 N/Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk
 c000000004C238B9B00000000000000EE
 t1277397915
@@ -398,6 +615,10 @@ N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1291578536
 s53241424
 
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch.gch
+t1291600980
+s54124976
+
 NSimpleScreenshot-Info.plist
 c000000004CFBEAEF0000000000000437
 t1291578095
@@ -405,7 +626,7 @@ s1079
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies313271642#313271642#0(0"0(0#1#0"8629583744#0"0#
+lSLF07#2@18"Check dependencies313295225#313295225#0(0"0(0#1#0"8619427392#0"0#
 
 CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313271616.541449
@@ -422,6 +643,21 @@ o/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m: In function '+[ANImage
 o/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
 lSLF07#2@63"Compile /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m313271616#313271616#0(341"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type1(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313271616#117#224#0(6@55"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m313271543#199#0#199#0#0"0(0#0#55"/Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m8632987200#1656"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o0#
 
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313293781.847836
+e313293782.206323
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o
+x/Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':
+o/Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+lSLF07#2@61"Compile /Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m313293781#313293782#0(337"/Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m: In function '+[ANImageBitmapRep imageBitmapRepWithImage:]':/Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m:199: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type1(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313293781#115#222#0(6@53"/Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m313271543#199#0#199#0#0"0(0#0#53"/Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m8614768992#1634"    cd /Users/alex/xCode/git/LassoCapture    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/xCode/git/LassoCapture/build/Debug -I/Users/alex/xCode/git/LassoCapture/build/Debug/include -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch -c /Users/alex/xCode/git/LassoCapture/ANImageBitmapRep.m -o /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANImageBitmapRep.o0#
+
 CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313271616.013469
 e313271616.389930
@@ -434,6 +670,32 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@57"Compile /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m313271616#313271616#0(0"0(0#0#49"/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m8637824672#1644"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o /Users/alex/xCode/git/LassoCapture/ANKeyEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313293781.168535
+e313293781.562105
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o
+x/Users/alex/xCode/git/LassoCapture/ANKeyEvent.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/alex/xCode/git/LassoCapture/ANKeyEvent.m313293781#313293781#0(0"0(0#0#47"/Users/alex/xCode/git/LassoCapture/ANKeyEvent.m8614514048#1622"    cd /Users/alex/xCode/git/LassoCapture    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/xCode/git/LassoCapture/build/Debug -I/Users/alex/xCode/git/LassoCapture/build/Debug/include -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch -c /Users/alex/xCode/git/LassoCapture/ANKeyEvent.m -o /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANKeyEvent.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANMultiScreenManager.o /Users/alex/xCode/git/LassoCapture/ANMultiScreenManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313293982.129341
+e313293982.533396
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANMultiScreenManager.o
+x/Users/alex/xCode/git/LassoCapture/ANMultiScreenManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/xCode/git/LassoCapture/ANMultiScreenManager.m313293982#313293982#0(0"0(0#0#57"/Users/alex/xCode/git/LassoCapture/ANMultiScreenManager.m8614886624#1642"    cd /Users/alex/xCode/git/LassoCapture    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/xCode/git/LassoCapture/build/Debug -I/Users/alex/xCode/git/LassoCapture/build/Debug/include -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch -c /Users/alex/xCode/git/LassoCapture/ANMultiScreenManager.m -o /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ANMultiScreenManager.o0#
 
 CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o /Users/alex/Desktop/SimpleScreenshot/Screenshot.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313271642.901255
@@ -448,6 +710,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@57"Compile /Users/alex/Desktop/SimpleScreenshot/Screenshot.m313271642#313271643#0(0"0(0#0#49"/Users/alex/Desktop/SimpleScreenshot/Screenshot.m8625567968#1644"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/Screenshot.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o0#
 
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o /Users/alex/xCode/git/LassoCapture/Screenshot.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313295098.949341
+e313295099.411006
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o
+x/Users/alex/xCode/git/LassoCapture/Screenshot.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/alex/xCode/git/LassoCapture/Screenshot.m313295098#313295099#0(0"0(0#0#47"/Users/alex/xCode/git/LassoCapture/Screenshot.m8625691968#1622"    cd /Users/alex/xCode/git/LassoCapture    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/xCode/git/LassoCapture/build/Debug -I/Users/alex/xCode/git/LassoCapture/build/Debug/include -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch -c /Users/alex/xCode/git/LassoCapture/Screenshot.m -o /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/Screenshot.o0#
+
 CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313271643.271932
 e313271643.527112
@@ -460,6 +735,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@62"Compile /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m313271643#313271643#0(0"0(0#0#54"/Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m8623989600#1654"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/ScreenshotMaker.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o /Users/alex/xCode/git/LassoCapture/ScreenshotMaker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313294938.721949
+e313294939.004368
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o
+x/Users/alex/xCode/git/LassoCapture/ScreenshotMaker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/alex/xCode/git/LassoCapture/ScreenshotMaker.m313294938#313294939#0(0"0(0#0#52"/Users/alex/xCode/git/LassoCapture/ScreenshotMaker.m8621564256#1632"    cd /Users/alex/xCode/git/LassoCapture    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/xCode/git/LassoCapture/build/Debug -I/Users/alex/xCode/git/LassoCapture/build/Debug/include -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch -c /Users/alex/xCode/git/LassoCapture/ScreenshotMaker.m -o /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/ScreenshotMaker.o0#
 
 CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313271642.900300
@@ -478,6 +766,25 @@ o/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: At top leve
 o/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used
 lSLF07#2@74"Compile /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271642#313271643#0(539"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate cropThread:]':/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m:147: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m: At top level:/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used3(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313271643#126#235#0(6@66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271605#147#0#147#0#0"0(23@13"At top level:313271643#361#82#0(6@66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m313271605#0#0#0#0#0"0(22@32"'_curkeyid' defined but not used313271643#443#96#0(6@49"/Users/alex/Desktop/SimpleScreenshot/ANKeyEvent.h312950545#13#0#13#0#24"'*' defined but not used0(0#0#66"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m8626584992#1678"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshotAppDelegate.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o0#
 
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o /Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313295167.447098
+e313295168.060974
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o
+x/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate takeSnapshot2:]':
+o/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m:43: warning: unused variable 'screen'
+o/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate cropThread:]':
+o/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m:154: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
+o/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m: At top level:
+o/Users/alex/xCode/git/LassoCapture/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used
+lSLF07#2@72"Compile /Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m313295167#313295168#0(761"/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate takeSnapshot2:]':/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m:43: warning: unused variable 'screen'/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m: In function '-[SimpleScreenshotAppDelegate cropThread:]':/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m:154: warning: incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m: At top level:/Users/alex/xCode/git/LassoCapture/ANKeyEvent.h:13: warning: '_curkeyid' defined but not used4(22@24"Unused variable 'screen'313295167#127#103#0(6@64"/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m313295165#43#0#43#0#19"unused variable '*'0(22@153"Incompatible Objective-C types 'struct NSImage *', expected 'struct CIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type313295167#354#233#0(6@64"/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m313295165#154#0#154#0#0"0(23@13"At top level:313295168#587#80#0(6@64"/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m313295165#0#0#0#0#0"0(22@32"'_curkeyid' defined but not used313295168#667#94#0(6@47"/Users/alex/xCode/git/LassoCapture/ANKeyEvent.h312950545#13#0#13#0#24"'*' defined but not used0(0#0#64"/Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m8629086752#1656"    cd /Users/alex/xCode/git/LassoCapture    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/xCode/git/LassoCapture/build/Debug -I/Users/alex/xCode/git/LassoCapture/build/Debug/include -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch -c /Users/alex/xCode/git/LassoCapture/SimpleScreenshotAppDelegate.m -o /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshotAppDelegate.o0#
+
 CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o /Users/alex/Desktop/SimpleScreenshot/TransView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313271616.639744
 e313271616.821973
@@ -491,6 +798,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/alex/Desktop/SimpleScreenshot/TransView.m313271616#313271616#0(0"0(0#0#48"/Users/alex/Desktop/SimpleScreenshot/TransView.m8631632640#1642"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/TransView.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o0#
 
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o /Users/alex/xCode/git/LassoCapture/TransView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313293781.855569
+e313293782.023239
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o
+x/Users/alex/xCode/git/LassoCapture/TransView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/alex/xCode/git/LassoCapture/TransView.m313293781#313293782#0(0"0(0#0#46"/Users/alex/xCode/git/LassoCapture/TransView.m8614696448#1620"    cd /Users/alex/xCode/git/LassoCapture    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/xCode/git/LassoCapture/build/Debug -I/Users/alex/xCode/git/LassoCapture/build/Debug/include -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch -c /Users/alex/xCode/git/LassoCapture/TransView.m -o /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/TransView.o0#
+
 CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o /Users/alex/Desktop/SimpleScreenshot/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313271615.808905
 e313271616.013365
@@ -503,6 +823,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@51"Compile /Users/alex/Desktop/SimpleScreenshot/main.m313271615#313271616#0(0"0(0#0#43"/Users/alex/Desktop/SimpleScreenshot/main.m8630274784#1632"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-cmerabotsfiwysgfqnkizhdjzgnr/SimpleScreenshot_Prefix.pch -c /Users/alex/Desktop/SimpleScreenshot/main.m -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o0#
+
+CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o /Users/alex/xCode/git/LassoCapture/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313293780.819558
+e313293781.168401
+r1
+xCompileC
+xbuild/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o
+x/Users/alex/xCode/git/LassoCapture/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/alex/xCode/git/LassoCapture/main.m313293780#313293781#0(0"0(0#0#41"/Users/alex/xCode/git/LassoCapture/main.m8622287776#1610"    cd /Users/alex/xCode/git/LassoCapture    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/xCode/git/LassoCapture/build/Debug -I/Users/alex/xCode/git/LassoCapture/build/Debug/include -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch -c /Users/alex/xCode/git/LassoCapture/main.m -o /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/main.o0#
 
 CCompileC build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/ppc/ANImageBitmapRep.o /Users/alex/Desktop/SimpleScreenshot/ANImageBitmapRep.m normal ppc objective-c com.apple.compilers.gcc.4_2
 s313271338.947338
@@ -1170,6 +1503,9 @@ xCompileXIB
 x/Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib
 lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib313271612#313271612#0(0"0(0#0#63"/Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib8626463328#397"    cd /Users/alex/Desktop/SimpleScreenshot    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/MainMenu.nib /Users/alex/Desktop/SimpleScreenshot/English.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk0#
 
+CCompileXIB /Users/alex/xCode/git/LassoCapture/English.lproj/MainMenu.xib
+r0
+
 CCopyStringsFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s313271612.365820
 e313271612.393364
@@ -1179,6 +1515,9 @@ x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/
 xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings313271612#313271612#0(0"0(0#0#68"/Users/alex/Desktop/SimpleScreenshot/English.lproj/InfoPlist.strings8627168192#385"    cd /Users/alex/Desktop/SimpleScreenshot    setenv ICONV /usr/bin/iconv    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj0#
 
+CCopyStringsFile /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
 CCopyTiffFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff loader.tiff
 s313271612.394235
 e313271612.416885
@@ -1187,6 +1526,9 @@ xCopyTiffFile
 x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff
 xloader.tiff
 lSLF07#2@16"Copy loader.tiff313271612#313271612#0(0"0(0#0#48"/Users/alex/Desktop/SimpleScreenshot/loader.tiff8626218944#259"    cd /Users/alex/Desktop/SimpleScreenshot    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff loader.tiff --outdir /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Resources0#
+
+CCopyTiffFile /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Resources/loader.tiff loader.tiff
+r0
 
 CCpResource build/Debug/SimpleScreenshot.app/Contents/Resources/icon.icns icon.icns
 s313271612.393459
@@ -1254,6 +1596,16 @@ xnormal
 xx86_64
 lSLF07#2@138"Link /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot313271337#313271337#0(0"0(0#0#0"8619467360#693"    cd /Users/alex/Desktop/SimpleScreenshot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/SimpleScreenshot/build/Debug -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -filelist /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -framework Quartz -framework Carbon -o /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/x86_64/SimpleScreenshot0#
 
+CLd /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot normal i386
+s313295168.061050
+e313295168.099320
+r1
+xLd
+x/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot
+xnormal
+xi386
+lSLF07#2@104"Link /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot313295168#313295168#0(0"0(0#0#0"8605958464#647"    cd /Users/alex/xCode/git/LassoCapture    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -L/Users/alex/xCode/git/LassoCapture/build/Debug -F/Users/alex/xCode/git/LassoCapture/build/Debug -filelist /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/Objects-normal/i386/SimpleScreenshot.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework OpenGL -framework Quartz -framework Carbon -o /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/MacOS/SimpleScreenshot0#
+
 CProcessInfoPlistFile /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Info.plist SimpleScreenshot-Info.plist
 s313271612.360858
 e313271612.365727
@@ -1262,6 +1614,9 @@ xProcessInfoPlistFile
 x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Info.plist
 xSimpleScreenshot-Info.plist
 lSLF07#2@35"Process SimpleScreenshot-Info.plist313271612#313271612#0(0"0(0#0#64"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot-Info.plist8630166816#331"    cd /Users/alex/Desktop/SimpleScreenshot    builtin-infoPlistUtility SimpleScreenshot-Info.plist -genpkginfo /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app/Contents/Info.plist SimpleScreenshot-Info.plist
+r0
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-bpcfopazlatzwgcywxgyrgxvqmsh/SimpleScreenshot_Prefix.pch.gch SimpleScreenshot_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s312950838.332530
@@ -1315,6 +1670,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@38"Precompile SimpleScreenshot_Prefix.pch313271330#313271336#0(0"0(0#0#64"/Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch8631394560#1541"    cd /Users/alex/Desktop/SimpleScreenshot    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/Desktop/SimpleScreenshot/build/Debug -I/Users/alex/Desktop/SimpleScreenshot/build/Debug/include -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/ppc -I/Users/alex/Desktop/SimpleScreenshot/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -c /Users/alex/Desktop/SimpleScreenshot/SimpleScreenshot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-evzqhwhudkyuqbagdlydcjdzquth/SimpleScreenshot_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch.gch SimpleScreenshot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313293776.564320
+e313293780.819096
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch.gch
+xSimpleScreenshot_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile SimpleScreenshot_Prefix.pch313293776#313293780#0(0"0(0#0#62"/Users/alex/xCode/git/LassoCapture/SimpleScreenshot_Prefix.pch8621474432#1513"    cd /Users/alex/xCode/git/LassoCapture    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-generated-files.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-own-target-headers.hmap -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-all-target-headers.hmap -iquote /Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/SimpleScreenshot-project-headers.hmap -F/Users/alex/xCode/git/LassoCapture/build/Debug -I/Users/alex/xCode/git/LassoCapture/build/Debug/include -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources/i386 -I/Users/alex/xCode/git/LassoCapture/build/SimpleScreenshot.build/Debug/SimpleScreenshot.build/DerivedSources -c /Users/alex/xCode/git/LassoCapture/SimpleScreenshot_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleScreenshot_Prefix-ffacmyovqurkkbgcfjaguwiupjtz/SimpleScreenshot_Prefix.pch.gch0#
+
 CTouch /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app
 s313271643.565311
 e313271643.568007
@@ -1322,4 +1690,12 @@ r1
 xTouch
 x/Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app
 lSLF07#2@75"Touch /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app313271643#313271643#0(0"0(0#0#0"8631873472#136"    cd /Users/alex/Desktop/SimpleScreenshot    /usr/bin/touch -c /Users/alex/Desktop/SimpleScreenshot/build/Debug/SimpleScreenshot.app0#
+
+CTouch /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app
+s313295168.099411
+e313295168.101896
+r1
+xTouch
+x/Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app
+lSLF07#2@73"Touch /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app313295168#313295168#0(0"0(0#0#0"8605784064#132"    cd /Users/alex/xCode/git/LassoCapture    /usr/bin/touch -c /Users/alex/xCode/git/LassoCapture/build/Debug/SimpleScreenshot.app0#
 

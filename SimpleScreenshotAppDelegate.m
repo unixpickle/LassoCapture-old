@@ -41,7 +41,9 @@ NSData * ImagePNGData (NSImage * img) {
 
 - (void)takeSnapshot2:(id)sender {
 	NSScreen * screen = [NSScreen mainScreen];
-	NSRect screenFrame = [screen frame];
+	ANMultiScreenManager * man = [[ANMultiScreenManager alloc] init];
+	NSRect screenFrame = [man totalScreenRect];
+	[man release];
 	ScreenshotMaker * ssmaker = [[ScreenshotMaker alloc] initWithFrame:screenFrame];
 	[ssmaker setDelegate:self];
 	NSWindow * sswindow = [[NSWindow alloc] initWithContentRect:screenFrame
@@ -105,6 +107,11 @@ NSData * ImagePNGData (NSImage * img) {
 
 - (void)awakeFromNib {
 	// Insert code here to initialize your application 
+	
+	NSRect frm2 = [[[[ANMultiScreenManager alloc] init] autorelease] totalScreenRect];
+	NSLog(@"%@", NSStringFromRect(frm2));
+	
+	
 	[ANKeyEvent configureKeyboard];
 	[self makeShift5];
 	[self makeShift6];

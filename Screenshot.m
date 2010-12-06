@@ -31,8 +31,50 @@
 	
     return newImage;
 }
++ (NSImage *)captureAllScreens {
+	// read through all displays
+	NSMutableDictionary * screenshots = [NSMutableDictionary new];
+	NSArray * r = [NSScreen screens];
+	int index = 0;
+	for (NSScreen * scrn in [NSScreen screens]) {
+		// capture the screen
+		Screenshot * m = [[Screenshot alloc] initWithScreen:scrn];
+		[m readFullScreenToBuffer];
+		NSImage * image = [m capturedImage];
+		[m release];
+		m = nil;
+		[screenshots setObject:image forKey:[NSNumber numberWithInt:index]];
+		index += 1;
+	}
+	ANMultiScreenManager * man = [[ANMultiScreenManager alloc] init];
+	NSRect totalFrame = [man totalScreenRect];
+	[man release];
+	NSPoint offset = totalFrame.origin;
+	NSImage * image = [[NSImage alloc] initWithSize:totalFrame.size];
+	[image lockFocus];
+	for (NSNumber * screenI in screenshots) {
+		NSScreen * screen = [r objectAtIndex:[screenI intValue]];
+		NSRect frm = [screen frame];
+		frm.origin.x -= offset.x;
+		frm.origin.y -= offset.y;
+		NSImage * image1 = [screenshots objectForKey:screenI];
+		// alright, draw that sucker
+		[image1 drawInRect:frm
+				 fromRect:NSZeroRect 
+				operation:NSCompositeSourceOver fraction:1];
+	}
+	[image unlockFocus];
+	NSData * d = [image TIFFRepresentation];
+	NSImage * newImage = [[NSImage alloc] initWithData:d];
+	[image release];
+	// now we have our large image
+	return newImage;
+}
 + (NSImage *)captureScreen {
-	Screenshot * m = [[Screenshot alloc] init];
+	
+	return [Screenshot captureAllScreens];
+	
+	Screenshot * m = [[Screenshot alloc] initWithScreen:[NSScreen mainScreen]];
 	[m readFullScreenToBuffer];
 	NSImage * image = [m capturedImage];
 	[m release];
@@ -105,6 +147,59 @@
 }
 
 #pragma mark ---------- Initialization ----------
+
+- (id)initWithScreen:(NSScreen *)scrn {
+	if (self = [super init]) {
+		// Create a full-screen OpenGL graphics context
+		
+		CGDirectDisplayID dspID;
+		unsigned int i;
+		NSRect frm = [scrn frame];
+		CGGetDisplaysWithRect(*(CGRect *)&frm, 1, &dspID, &i);
+		
+		
+		// Specify attributes of the GL graphics context
+		NSOpenGLPixelFormatAttribute attributes[] = {
+			NSOpenGLPFAFullScreen,
+			NSOpenGLPFAScreenMask,
+			CGDisplayIDToOpenGLDisplayMask(dspID),
+			(NSOpenGLPixelFormatAttribute) 0
+		};
+		
+		NSOpenGLPixelFormat *glPixelFormat = [[NSOpenGLPixelFormat alloc] initWithAttributes:attributes];
+		if (!glPixelFormat) {
+			return nil;
+		}
+		
+		// Create OpenGL context used to render
+		mGLContext = [[[NSOpenGLContext alloc] initWithFormat:glPixelFormat shareContext:nil] autorelease];
+		
+		// Cleanup, pixel format object no longer needed
+		[glPixelFormat release];
+		
+        if (!mGLContext) {
+            [self release];
+            return nil;
+        }
+        [mGLContext retain];
+		
+        // Set our context as the current OpenGL context
+        [mGLContext makeCurrentContext];
+        // Set full-screen mode
+        [mGLContext setFullScreen];
+		
+		NSRect mainScreenRect = [scrn frame];
+		mWidth = mainScreenRect.size.width;
+		mHeight = mainScreenRect.size.height;
+		
+        mByteWidth = mWidth * 4;                // Assume 4 bytes/pixel for now
+        mByteWidth = (mByteWidth + 3) & ~3;    // Align to 4 bytes
+		
+        mData = malloc(mByteWidth * mHeight);
+        NSAssert(mData != 0, @"malloc failed");
+	}
+	return self;
+}
 
 - (id)init {
     if (self = [super init]) {

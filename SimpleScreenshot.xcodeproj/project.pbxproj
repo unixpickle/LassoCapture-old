@@ -12,6 +12,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FA0444F312AC7840008F0B87 /* ANMultiScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0444F212AC7840008F0B87 /* ANMultiScreenManager.m */; };
 		FA3A4FBE12A73D9A0042F6D2 /* ANKeyEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A4FBB12A73D9A0042F6D2 /* ANKeyEvent.m */; };
 		FA3A4FCE12A73DAB0042F6D2 /* Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A4FCD12A73DAB0042F6D2 /* Screenshot.m */; };
 		FA3A503C12A7404D0042F6D2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3A503B12A7404D0042F6D2 /* OpenGL.framework */; };
@@ -39,6 +40,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* SimpleScreenshot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleScreenshot-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SimpleScreenshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleScreenshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0444F112AC7840008F0B87 /* ANMultiScreenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMultiScreenManager.h; sourceTree = "<group>"; };
+		FA0444F212AC7840008F0B87 /* ANMultiScreenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMultiScreenManager.m; sourceTree = "<group>"; };
 		FA3A4FBA12A73D9A0042F6D2 /* ANKeyEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKeyEvent.h; sourceTree = "<group>"; };
 		FA3A4FBB12A73D9A0042F6D2 /* ANKeyEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKeyEvent.m; sourceTree = "<group>"; };
 		FA3A4FCC12A73DAB0042F6D2 /* Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screenshot.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				FA3A511212A748630042F6D2 /* ScreenshotMaker.m */,
 				FAD9532A12AC1E2E00B6E184 /* TransView.h */,
 				FAD9532B12AC1E2E00B6E184 /* TransView.m */,
+				FA0444F112AC7840008F0B87 /* ANMultiScreenManager.h */,
+				FA0444F212AC7840008F0B87 /* ANMultiScreenManager.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 				FA3A511312A748630042F6D2 /* ScreenshotMaker.m in Sources */,
 				FA647B3112AC00DB00C062E4 /* ANImageBitmapRep.m in Sources */,
 				FAD9532C12AC1E2E00B6E184 /* TransView.m in Sources */,
+				FA0444F312AC7840008F0B87 /* ANMultiScreenManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

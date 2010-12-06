@@ -12,6 +12,7 @@
 #import "ANKeyEvent.h"
 #import "ANImageBitmapRep.h"
 #import "ScreenshotMaker.h"
+#import "ANMultiScreenManager.h"
 
 @interface SimpleScreenshotAppDelegate : NSObject <ScreenshotMakerDelegate> {
     NSWindow * screenshotWindow;
