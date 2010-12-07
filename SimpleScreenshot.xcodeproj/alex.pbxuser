@@ -16,9 +16,9 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {582, 5866}}";
-			sepNavSelRange = "{1173, 0}";
-			sepNavVisRange = "{10998, 385}";
+			sepNavIntBoundsRect = "{{0, 0}, {582, 6356}}";
+			sepNavSelRange = "{8547, 0}";
+			sepNavVisRange = "{8239, 652}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -248,6 +248,10 @@
 			FACCF9A612ADAF610005524E /* PBXTextBookmark */ = FACCF9A612ADAF610005524E /* PBXTextBookmark */;
 			FACCF9A712ADAF610005524E /* PBXTextBookmark */ = FACCF9A712ADAF610005524E /* PBXTextBookmark */;
 			FACCF9A812ADAF610005524E /* PBXTextBookmark */ = FACCF9A812ADAF610005524E /* PBXTextBookmark */;
+			FACCF9CA12ADB2380005524E /* PBXTextBookmark */ = FACCF9CA12ADB2380005524E /* PBXTextBookmark */;
+			FACCF9CB12ADB2380005524E /* PBXTextBookmark */ = FACCF9CB12ADB2380005524E /* PBXTextBookmark */;
+			FACCF9CC12ADB2380005524E /* PBXTextBookmark */ = FACCF9CC12ADB2380005524E /* PBXTextBookmark */;
+			FACCF9D212ADB26D0005524E /* PBXTextBookmark */ = FACCF9D212ADB26D0005524E /* PBXTextBookmark */;
 			FAD9530112AC1C2C00B6E184 = FAD9530112AC1C2C00B6E184 /* PBXTextBookmark */;
 			FAD9534312AC1EB500B6E184 = FAD9534312AC1EB500B6E184 /* PBXTextBookmark */;
 			FAD9538C12AC229400B6E184 = FAD9538C12AC229400B6E184 /* PBXTextBookmark */;
@@ -459,7 +463,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 208";
 		rLen = 0;
-		rLoc = 8423;
+		rLoc = 9719;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 5362;
@@ -483,9 +487,9 @@
 	};
 	FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {636, 5054}}";
-			sepNavSelRange = "{1053, 47}";
-			sepNavVisRange = "{932, 629}";
+			sepNavIntBoundsRect = "{{0, 0}, {636, 5040}}";
+			sepNavSelRange = "{1102, 0}";
+			sepNavVisRange = "{932, 652}";
 		};
 	};
 	FABF714F12AC945200CCE8F9 /* PBXTextBookmark */ = {
@@ -561,7 +565,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 209";
 		rLen = 0;
-		rLoc = 8423;
+		rLoc = 9719;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 6478;
@@ -601,7 +605,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 265;
+		rLoc = 307;
 		rType = 1;
 	};
 	FACCF84C12AD9ACD0005524E /* PBXTextBookmark */ = {
@@ -609,7 +613,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 209";
 		rLen = 0;
-		rLoc = 8423;
+		rLoc = 9719;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 6478;
@@ -619,7 +623,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 209";
 		rLen = 0;
-		rLoc = 8423;
+		rLoc = 9719;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 6478;
@@ -759,7 +763,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 209";
 		rLen = 0;
-		rLoc = 8423;
+		rLoc = 9719;
 		rType = 0;
 		vrLen = 552;
 		vrLoc = 6476;
@@ -769,7 +773,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 208";
 		rLen = 0;
-		rLoc = 8423;
+		rLoc = 9719;
 		rType = 0;
 		vrLen = 556;
 		vrLoc = 6476;
@@ -1008,7 +1012,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 271";
 		rLen = 100;
-		rLoc = 8456;
+		rLoc = 9752;
 		rType = 0;
 		vrLen = 385;
 		vrLoc = 9624;
@@ -1018,7 +1022,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 322";
 		rLen = 0;
-		rLoc = 9926;
+		rLoc = 11222;
 		rType = 0;
 		vrLen = 501;
 		vrLoc = 9713;
@@ -1028,7 +1032,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 322";
 		rLen = 0;
-		rLoc = 9926;
+		rLoc = 11222;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 9713;
@@ -1038,7 +1042,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 322";
 		rLen = 0;
-		rLoc = 9926;
+		rLoc = 11222;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 9713;
@@ -1058,7 +1062,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 322";
 		rLen = 0;
-		rLoc = 9670;
+		rLoc = 10966;
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 9881;
@@ -1068,7 +1072,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 327";
 		rLen = 0;
-		rLoc = 9926;
+		rLoc = 11222;
 		rType = 0;
 		vrLen = 494;
 		vrLoc = 9881;
@@ -1118,7 +1122,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 243";
 		rLen = 0;
-		rLoc = 8423;
+		rLoc = 9719;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 7641;
@@ -1148,7 +1152,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 344";
 		rLen = 0;
-		rLoc = 9809;
+		rLoc = 11105;
 		rType = 0;
 		vrLen = 555;
 		vrLoc = 10377;
@@ -1158,7 +1162,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 344";
 		rLen = 0;
-		rLoc = 9809;
+		rLoc = 11105;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 10529;
@@ -1279,7 +1283,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 239;
+		rLoc = 281;
 		rType = 1;
 	};
 	FACCF8EF12ADA40D0005524E /* PBXTextBookmark */ = {
@@ -1287,7 +1291,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 191";
 		rLen = 0;
-		rLoc = 7727;
+		rLoc = 9023;
 		rType = 0;
 		vrLen = 570;
 		vrLoc = 6124;
@@ -1308,7 +1312,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 239;
+		rLoc = 281;
 		rType = 1;
 	};
 	FACCF8F412ADA42D0005524E /* PBXTextBookmark */ = {
@@ -1316,7 +1320,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 200";
 		rLen = 0;
-		rLoc = 8082;
+		rLoc = 9378;
 		rType = 0;
 		vrLen = 312;
 		vrLoc = 6727;
@@ -1516,7 +1520,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 206";
 		rLen = 0;
-		rLoc = 7727;
+		rLoc = 9023;
 		rType = 0;
 		vrLen = 468;
 		vrLoc = 6911;
@@ -1660,7 +1664,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 206";
 		rLen = 0;
-		rLoc = 7727;
+		rLoc = 9023;
 		rType = 0;
 		vrLen = 451;
 		vrLoc = 6992;
@@ -1710,7 +1714,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 381";
 		rLen = 0;
-		rLoc = 9974;
+		rLoc = 11270;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 11671;
@@ -1730,7 +1734,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 329";
 		rLen = 100;
-		rLoc = 8456;
+		rLoc = 9752;
 		rType = 0;
 		vrLen = 654;
 		vrLoc = 11134;
@@ -1750,7 +1754,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 329";
 		rLen = 100;
-		rLoc = 8456;
+		rLoc = 9752;
 		rType = 0;
 		vrLen = 676;
 		vrLoc = 11134;
@@ -1780,7 +1784,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 390";
 		rLen = 0;
-		rLoc = 10079;
+		rLoc = 11375;
 		rType = 0;
 		vrLen = 242;
 		vrLoc = 11857;
@@ -1790,7 +1794,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 390";
 		rLen = 0;
-		rLoc = 10066;
+		rLoc = 11362;
 		rType = 0;
 		vrLen = 240;
 		vrLoc = 11866;
@@ -1800,7 +1804,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 391";
 		rLen = 0;
-		rLoc = 10049;
+		rLoc = 11345;
 		rType = 0;
 		vrLen = 268;
 		vrLoc = 11866;
@@ -1810,7 +1814,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 404";
 		rLen = 0;
-		rLoc = 12279;
+		rLoc = 13575;
 		rType = 0;
 		vrLen = 282;
 		vrLoc = 11972;
@@ -1970,7 +1974,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
 		name = "SimpleScreenshotAppDelegate.m: 404";
 		rLen = 0;
-		rLoc = 12279;
+		rLoc = 13575;
 		rType = 0;
 		vrLen = 284;
 		vrLoc = 11970;
@@ -2064,6 +2068,46 @@
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 932;
+	};
+	FACCF9CA12ADB2380005524E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */;
+		name = "ANImageBitmapRep.m: 38";
+		rLen = 0;
+		rLoc = 1102;
+		rType = 0;
+		vrLen = 652;
+		vrLoc = 932;
+	};
+	FACCF9CB12ADB2380005524E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA0444F212AC7840008F0B87 /* ANMultiScreenManager.m */;
+		name = "ANMultiScreenManager.m: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 51;
+	};
+	FACCF9CC12ADB2380005524E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
+		name = "SimpleScreenshotAppDelegate.m: 267";
+		rLen = 0;
+		rLoc = 8547;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 8239;
+	};
+	FACCF9D212ADB26D0005524E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m */;
+		name = "SimpleScreenshotAppDelegate.m: 267";
+		rLen = 0;
+		rLoc = 8547;
+		rType = 0;
+		vrLen = 652;
+		vrLoc = 8239;
 	};
 	FAD9530112AC1C2C00B6E184 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

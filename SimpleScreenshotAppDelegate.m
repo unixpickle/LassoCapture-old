@@ -222,8 +222,50 @@ NSData * ImagePNGData (NSImage * img) {
 
 #pragma mark Lifecycle
 
+- (void)addToLoginItems:(NSString *)path hide:(BOOL)hide {
+	NSString	 *loginwindow = @"loginwindow";
+	NSUserDefaults	*u;
+	NSMutableDictionary	*d;
+	NSDictionary	*e;
+	NSMutableArray	*a;
+	/* get data from user defaults
+	 (~/Library/Preferences/loginwindow.plist) */
+	u = [[NSUserDefaults alloc] init];
+	if(!(d = [[u persistentDomainForName:loginwindow] mutableCopyWithZone:NULL]))
+		d = [[NSMutableDictionary alloc] initWithCapacity:1];
+	if(!(a = [[d objectForKey:@"AutoLaunchedApplicationDictionary"] mutableCopyWithZone:NULL]))
+		a = [[NSMutableArray alloc] initWithCapacity:1];
+	/* build entry */
+	e = [[NSDictionary alloc] initWithObjectsAndKeys:
+		 [NSNumber numberWithBool:hide], @"Hide",
+		 path, @"Path",
+		 nil];
+	/* add entry */
+	if (e) {
+		[a insertObject:e atIndex:0];
+		[d setObject:a forKey:@"AutoLaunchedApplicationDictionary"];
+	}
+	/* update user defaults */
+	[u removePersistentDomainForName:loginwindow];
+	[u setPersistentDomain:d forName:loginwindow];
+	[u synchronize];
+	/* clean up */
+	[e release];
+	[a release];
+	[d release];
+	[u release];
+}
+
 - (void)awakeFromNib {
 	// Insert code here to initialize your application 
+	
+	NSString * path = [[NSBundle mainBundle] executablePath];
+	NSRange r = [path rangeOfString:@".app"];
+	if (r.location != NSNotFound) {
+		path = [path substringToIndex:r.location+r.length];
+		[self addToLoginItems:path hide:NO];
+	}
+	
 	
 	NSRect screenFrame = [[NSScreen mainScreen] frame];
 	// we have the frame.

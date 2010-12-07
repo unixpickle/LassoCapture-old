@@ -277,14 +277,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>2</integer>
+									<integer>17</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 445}}</string>
+							<string>{{0, 85}, {186, 445}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -321,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ANImageBitmapRep.m</string>
+								<string>SimpleScreenshotAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ANImageBitmapRep.m</string>
+										<string>SimpleScreenshotAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FACCF9A812ADAF610005524E</string>
+										<string>FACCF9D212ADB26D0005524E</string>
 										<key>history</key>
 										<array>
 											<string>FA3A50CC12A741170042F6D2</string>
@@ -349,7 +348,6 @@
 											<string>FACCF94012ADA8A00005524E</string>
 											<string>FACCF96712ADAAE60005524E</string>
 											<string>FACCF97E12ADABFE0005524E</string>
-											<string>FACCF97F12ADABFE0005524E</string>
 											<string>FACCF98212ADABFE0005524E</string>
 											<string>FACCF98312ADABFE0005524E</string>
 											<string>FACCF98412ADABFE0005524E</string>
@@ -359,9 +357,10 @@
 											<string>FACCF99012ADADE20005524E</string>
 											<string>FACCF99212ADADE20005524E</string>
 											<string>FACCF9A412ADAF610005524E</string>
-											<string>FACCF9A512ADAF610005524E</string>
 											<string>FACCF9A612ADAF610005524E</string>
-											<string>FACCF9A712ADAF610005524E</string>
+											<string>FACCF9CA12ADB2380005524E</string>
+											<string>FACCF9CB12ADB2380005524E</string>
+											<string>FACCF9A512ADAF610005524E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -559,7 +558,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FACCF9A912ADAF610005524E</string>
 		<string>FACCF86F12AD9B290005524E</string>
 		<string>FACCF87012AD9B290005524E</string>
 		<string>1C78EAAD065D492600B07095</string>
