@@ -197,6 +197,7 @@ NSData * ImagePNGData (NSImage * img) {
 }
 
 - (void)takeLassoSnapshot:(id)sender {
+	if (screenshotWindow) return;
 	ANMultiScreenManager * man = [[ANMultiScreenManager alloc] init];
 	NSRect screenFrame = [man totalScreenRect];
 	[man release];

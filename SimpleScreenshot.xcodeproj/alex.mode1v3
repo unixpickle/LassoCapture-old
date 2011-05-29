@@ -277,14 +277,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>2</integer>
+									<integer>17</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 57}, {259, 606}}</string>
+							<string>{{0, 0}, {259, 606}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -321,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ANKeyEvent.m</string>
+								<string>SimpleScreenshotAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ANKeyEvent.m</string>
+										<string>SimpleScreenshotAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FAFC3B621392D47D00A1FCEC</string>
+										<string>FAFC3B6B1392D51B00A1FCEC</string>
 										<key>history</key>
 										<array>
 											<string>FA3A50CC12A741170042F6D2</string>
@@ -361,9 +360,9 @@
 											<string>FABAA13E13458765005C4758</string>
 											<string>FABAA13F13458765005C4758</string>
 											<string>FABAA14013458765005C4758</string>
-											<string>FABAA14113458765005C4758</string>
-											<string>FAFC3B611392D47D00A1FCEC</string>
-											<string>FABAA13C13458765005C4758</string>
+											<string>FAFC3B681392D51B00A1FCEC</string>
+											<string>FAFC3B691392D51B00A1FCEC</string>
+											<string>FAFC3B6A1392D51B00A1FCEC</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
