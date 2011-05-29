@@ -16,6 +16,7 @@
 #import "ANMultiScreenManager.h"
 #import "SettingsController.h"
 #import "KeyWindow.h"
+#import "ANImgbay.h"
 
 @interface SimpleScreenshotAppDelegate : NSObject <ScreenshotMakerDelegate> {
     NSWindow * screenshotWindow;
@@ -35,9 +36,13 @@
 	IBOutlet NSColorWell * setting_lassocolor;
 	IBOutlet NSSlider * setting_lassothickness;
 	IBOutlet NSWindow * settingsWindow;
-	
+	NSStatusItem * _statusItem;
 	ProcessSerialNumber lastProcess;
 }
+
+- (void)makeShift5;
+- (void)makeShift6;
+- (void)makeShift7;
 
 - (void)startLoading;
 - (void)stopLoading;
@@ -48,6 +53,7 @@
 
 - (void)takeLassoSnapshot:(id)sender;
 - (void)takeClipboardSnapshot:(id)sender;
+- (void)takeImgbaySnapshot:(id)sender;
 
 - (void)setDone:(BOOL)d;
 - (BOOL)done;

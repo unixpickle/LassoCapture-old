@@ -36,9 +36,9 @@ static OSStatus myHotKeyHandler(EventHandlerCallRef nextHandler, EventRef anEven
 }
 
 + (int)keyCodeForString:(NSString *)str {
-	NSDictionary * keys = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"keys" ofType:@"plist"]];
-	NSArray * foo = [keys allKeysForObject:str];
-	if ([foo count] > 0) return [[foo lastObject] intValue];
+	NSDictionary * keys = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"keys" ofType:@"plist"]] autorelease];
+	NSArray * totalKeys = [keys allKeysForObject:str];
+	if ([totalKeys count] > 0) return [[totalKeys lastObject] intValue];
 	return 0;
 }
 
@@ -51,7 +51,7 @@ static OSStatus myHotKeyHandler(EventHandlerCallRef nextHandler, EventRef anEven
 }
 
 - (NSString *)keyTitle {
-	NSDictionary * keys = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"keys" ofType:@"plist"]];
+	NSDictionary * keys = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"keys" ofType:@"plist"]] autorelease];
 	return (NSString *)[keys objectForKey:[NSString stringWithFormat:@"%d", key_code]];
 }
 
@@ -84,6 +84,6 @@ static OSStatus myHotKeyHandler(EventHandlerCallRef nextHandler, EventRef anEven
 - (void)dealloc {
 	[self unregisterEvent];
 	[[ANKeyEvent keyEvents] removeObject:self];
-	[super edalloc];
+	[super dealloc];
 }
 @end

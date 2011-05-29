@@ -51,6 +51,19 @@ NSData * ImagePNGData (NSImage * img) {
 	[evt release];
 }
 
+- (void)makeShift7 {
+	ANKeyEvent * evt = [[ANKeyEvent alloc] init];
+	[evt setTarget:self];
+	[evt setSelector:@selector(takeImgbaySnapshot:)];
+	[evt setKey_code:26];
+	[evt setKey_command:YES];
+	[evt setKey_control:NO];
+	[evt setKey_option:NO];
+	[evt setKey_shift:YES];
+	[evt registerEvent];
+	[evt release];
+}
+
 #pragma mark Loading and Settings
 
 - (void)startLoading {
@@ -159,6 +172,30 @@ NSData * ImagePNGData (NSImage * img) {
 	
 }
 
+- (void)takeImgbaySnapshot:(id)sender {
+	if ([[NSFileManager defaultManager] fileExistsAtPath:@"/var/tmp/test.png"]) {
+		[[NSFileManager defaultManager] removeItemAtPath:@"/var/tmp/test.png"
+												   error:nil];
+	}
+	
+	system("screencapture -i /var/tmp/test.png");
+	NSImage * myImage = [[NSImage alloc] initWithContentsOfFile:@"/var/tmp/test.png"];
+	
+	if ([[[SettingsController sharedSettings] valueForKey:@"inverse"] boolValue]) {
+		ANImageBitmapRep * invert = [[ANImageBitmapRep alloc] initWithImage:(id)myImage];
+		[invert invertColors];
+		[myImage release];
+		myImage = [[invert image] retain];
+		[invert release];
+	}
+	
+	ANImgbay * imagePost = [[ANImgbay alloc] initWithImage:(CIImage *)myImage];
+	[imagePost postInBackground];
+	[imagePost autorelease];
+	
+	[myImage release];
+}
+
 - (void)takeLassoSnapshot:(id)sender {
 	ANMultiScreenManager * man = [[ANMultiScreenManager alloc] init];
 	NSRect screenFrame = [man totalScreenRect];
@@ -217,7 +254,7 @@ NSData * ImagePNGData (NSImage * img) {
                         keyEquivalent:@""];
     [menuItem setTarget:self];
 	
-    return menu;
+    return [menu autorelease];
 }
 
 #pragma mark Lifecycle
@@ -277,6 +314,7 @@ NSData * ImagePNGData (NSImage * img) {
 	[ANKeyEvent configureKeyboard];
 	[self makeShift5];
 	[self makeShift6];
+	[self makeShift7];
 	
 	[loadingText setFont:[NSFont systemFontOfSize:24.0]];
 	NSRect loadingTextFrame = [loadingText frame];
@@ -284,7 +322,7 @@ NSData * ImagePNGData (NSImage * img) {
 	[loadingText setFrame:loadingTextFrame];
 
 	NSMenu * menu = [self createMenu];
-    NSStatusItem * _statusItem = [[[NSStatusBar systemStatusBar]
+    _statusItem = [[[NSStatusBar systemStatusBar]
                                    statusItemWithLength:NSSquareStatusItemLength] retain];
     [_statusItem setMenu:menu];
     [_statusItem setHighlightMode:YES];

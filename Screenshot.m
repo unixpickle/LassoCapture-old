@@ -36,7 +36,7 @@
 }
 + (NSImage *)captureAllScreens {
 	// read through all displays
-	NSMutableDictionary * screenshots = [NSMutableDictionary new];
+	NSMutableDictionary * screenshots = [[[NSMutableDictionary alloc] init] autorelease];
 	NSArray * r = [NSScreen screens];
 	int index = 0;
 	for (NSScreen * scrn in [NSScreen screens]) {

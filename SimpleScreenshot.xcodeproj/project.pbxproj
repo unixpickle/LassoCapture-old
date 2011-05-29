@@ -21,6 +21,7 @@
 		FA3A50C612A740DE0042F6D2 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FA3A50C512A740DE0042F6D2 /* icon.icns */; };
 		FA3A511312A748630042F6D2 /* ScreenshotMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A511212A748630042F6D2 /* ScreenshotMaker.m */; };
 		FA647B3112AC00DB00C062E4 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */; };
+		FABAA10C13458478005C4758 /* ANImgbay.m in Sources */ = {isa = PBXBuildFile; fileRef = FABAA10B13458478005C4758 /* ANImgbay.m */; };
 		FACCF83212AD92C90005524E /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACCF83112AD92C90005524E /* SettingsController.m */; };
 		FACCF83612AD99490005524E /* default.plist in Resources */ = {isa = PBXBuildFile; fileRef = FACCF83512AD99490005524E /* default.plist */; };
 		FACCF93012ADA8260005524E /* KeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FACCF92F12ADA8260005524E /* KeyWindow.m */; };
@@ -57,6 +58,8 @@
 		FA3A511212A748630042F6D2 /* ScreenshotMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotMaker.m; sourceTree = "<group>"; };
 		FA647B2F12AC00DA00C062E4 /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
 		FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
+		FABAA10A13458478005C4758 /* ANImgbay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImgbay.h; sourceTree = "<group>"; };
+		FABAA10B13458478005C4758 /* ANImgbay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImgbay.m; sourceTree = "<group>"; };
 		FACCF83012AD92C90005524E /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
 		FACCF83112AD92C90005524E /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
 		FACCF83512AD99490005524E /* default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = default.plist; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				FACCF83112AD92C90005524E /* SettingsController.m */,
 				FACCF92E12ADA8260005524E /* KeyWindow.h */,
 				FACCF92F12ADA8260005524E /* KeyWindow.m */,
+				FABAA10A13458478005C4758 /* ANImgbay.h */,
+				FABAA10B13458478005C4758 /* ANImgbay.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleScreenshot" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -275,6 +281,7 @@
 				FA0444F312AC7840008F0B87 /* ANMultiScreenManager.m in Sources */,
 				FACCF83212AD92C90005524E /* SettingsController.m in Sources */,
 				FACCF93012ADA8260005524E /* KeyWindow.m in Sources */,
+				FABAA10C13458478005C4758 /* ANImgbay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
