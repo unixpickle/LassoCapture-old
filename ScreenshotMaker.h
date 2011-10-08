@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "Screenshot.h"
 #import "ANImageBitmapRep.h"
 #import "SettingsController.h"
 
@@ -20,22 +19,20 @@ typedef struct {
 @protocol ScreenshotMakerDelegate
 @optional
 
-- (void)screenshotMaker:(id)sender 
-		 cropPointsPath:(PointArray *)p 
-			 fromImage:(NSImage *)bmp;
+- (void)screenshotMaker:(id)sender cropPointsPath:(PointArray *)p;
 - (void)screenshotMakerDoneCrop:(id)sender;
 
 @end
 
 
 @interface ScreenshotMaker : NSView {
-	// screenshotImage is where we store the screenshot
-	NSImage * screenshotImage;
 	PointArray points; // used for storing points
 	// this will crop our image
 	float thickness;
 	float components[4];
 	id<ScreenshotMakerDelegate> delegate;	
 }
+
 @property (nonatomic, assign) id<ScreenshotMakerDelegate> delegate;
+
 @end

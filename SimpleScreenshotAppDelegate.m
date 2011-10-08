@@ -68,10 +68,9 @@ NSData * ImagePNGData (NSImage * img) {
 
 - (void)startLoading {
 	if (loadingWindow) return;
-	NSRect frm = [[NSScreen mainScreen] frame];
-	NSRect cent = NSMakeRect(frm.size.width / 2 - 100, frm.size.height / 2 - 100,
-							 200, 200);
-	NSWindow * window = [[NSWindow alloc] initWithContentRect:cent styleMask:NSBorderlessWindowMask
+	NSRect screenFrame = [[NSScreen mainScreen] frame];
+	NSRect center = NSMakeRect(screenFrame.size.width / 2 - 100, screenFrame.size.height / 2 - 100, 200, 200);
+	NSWindow * window = [[NSWindow alloc] initWithContentRect:center styleMask:NSBorderlessWindowMask
 													  backing:NSBackingStoreBuffered defer:NO];
 	[window setOpaque:NO];
 	[window setContentView:loadingView];
@@ -80,6 +79,7 @@ NSData * ImagePNGData (NSImage * img) {
 	[window makeKeyAndOrderFront:self];
 	loadingWindow = window;
 }
+
 - (void)stopLoading {
 	[loadingWindow orderOut:self];
 	[loadingWindow release];
@@ -111,9 +111,11 @@ NSData * ImagePNGData (NSImage * img) {
 		NSLog(@"Unknown object: %@", sender);
 	}
 }
+
 - (IBAction)closeSettings:(id)sender {
 	[settingsWindow orderOut:self];
 }
+
 - (void)loadSettings {
 	// load the settings, one by one
 	SettingsController * controller = [SettingsController sharedSettings];
@@ -130,25 +132,20 @@ NSData * ImagePNGData (NSImage * img) {
 	[setting_lassothickness setDoubleValue:[lassothickness doubleValue]];
 	[setting_clipboardstroke setState:clipboardstroke];
 	[setting_inverse setState:inverse];
-	 
 }
 
 #pragma mark Menu Bar
 
 - (void)takeClipboardSnapshot:(id)sender {
-	
 	if (![[[SettingsController sharedSettings] valueForKey:@"clipboardstroke"] boolValue]) {
 		return;
 	}
 	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:@"/var/tmp/test.png"]) {
-		[[NSFileManager defaultManager] removeItemAtPath:@"/var/tmp/test.png"
-												   error:nil];
-
-	}
+	NSString * tempFile = [NSTemporaryDirectory() stringByAppendingFormat:@"/temp%d.png", time(NULL)];
+	system([[NSString stringWithFormat:@"screencapture -i %@", tempFile] UTF8String]);
+	NSImage * myImage = [[NSImage alloc] initWithContentsOfFile:tempFile];
 	
-	system("screencapture -i /var/tmp/test.png");
-	NSImage * myImage = [[NSImage alloc] initWithContentsOfFile:@"/var/tmp/test.png"];
+	if (!myImage) return;
 	
 	if ([[[SettingsController sharedSettings] valueForKey:@"inverse"] boolValue]) {
 		ANImageBitmapRep * invert = [[ANImageBitmapRep alloc] initWithImage:(id)myImage];
@@ -165,21 +162,19 @@ NSData * ImagePNGData (NSImage * img) {
 		[pb setData:[myImage TIFFRepresentation] forType:NSTIFFPboardType];
 	}
 	
-	[[NSFileManager defaultManager] removeItemAtPath:@"/var/tmp/test.png"
-											   error:nil];
-	
+	[[NSFileManager defaultManager] removeItemAtPath:tempFile error:nil];
 	[myImage release];
 	
 }
 
 - (void)takeImgbaySnapshot:(id)sender {
-	if ([[NSFileManager defaultManager] fileExistsAtPath:@"/var/tmp/test.png"]) {
-		[[NSFileManager defaultManager] removeItemAtPath:@"/var/tmp/test.png"
-												   error:nil];
-	}
+	NSString * tempFile = [NSTemporaryDirectory() stringByAppendingFormat:@"/temp%d.png", time(NULL)];
 	
-	system("screencapture -i /var/tmp/test.png");
-	NSImage * myImage = [[NSImage alloc] initWithContentsOfFile:@"/var/tmp/test.png"];
+	system([[NSString stringWithFormat:@"screencapture -i %@", tempFile] UTF8String]);
+	NSImage * myImage = [[NSImage alloc] initWithContentsOfFile:tempFile];
+	if (!myImage) {
+		return;
+	}
 	
 	if ([[[SettingsController sharedSettings] valueForKey:@"inverse"] boolValue]) {
 		ANImageBitmapRep * invert = [[ANImageBitmapRep alloc] initWithImage:(id)myImage];
@@ -189,10 +184,11 @@ NSData * ImagePNGData (NSImage * img) {
 		[invert release];
 	}
 	
-	ANImgbay * imagePost = [[ANImgbay alloc] initWithImage:(CIImage *)myImage];
+	ANImgbay * imagePost = [(ANImgbay *)[ANImgbay alloc] initWithImage:myImage];
 	[imagePost postInBackground];
-	[imagePost autorelease];
+	[imagePost release];
 	
+	[[NSFileManager defaultManager] removeItemAtPath:tempFile error:nil];
 	[myImage release];
 }
 
@@ -208,6 +204,9 @@ NSData * ImagePNGData (NSImage * img) {
 														backing:NSBackingStoreBuffered defer:NO];
 	[sswindow setContentView:ssmaker];
 	[sswindow setLevel:CGShieldingWindowLevel()];
+	[sswindow setOpaque:NO];
+	[sswindow setBackgroundColor:[NSColor clearColor]];
+	[sswindow setIgnoresMouseEvents:NO];
 	[sswindow makeKeyAndOrderFront:self];
 	self.screenshotWindow = [sswindow autorelease];
 	[ssmaker release];
@@ -215,15 +214,13 @@ NSData * ImagePNGData (NSImage * img) {
 	[self.screenshotWindow makeFirstResponder:ssmaker];
 	[ssmaker becomeFirstResponder];
 	
-	ProcessSerialNumber num;
-	GetFrontProcess(&lastProcess);
-	GetCurrentProcess(&num);
-	SetFrontProcess(&num);
+	[[FocusManager sharedFocusManager] forceAppFocus];
 }
 
 - (void)quitApp:(id)sender {
 	exit(0);
 }
+
 - (IBAction)settings:(id)sender {
 	[settingsWindow makeKeyAndOrderFront:self];
 	[settingsWindow makeMainWindow];
@@ -232,6 +229,7 @@ NSData * ImagePNGData (NSImage * img) {
 	GetCurrentProcess(&num);
 	SetFrontProcess(&num);
 }
+
 - (void)lasso:(id)sender {
 	[self takeLassoSnapshot:self];
 }
@@ -241,15 +239,33 @@ NSData * ImagePNGData (NSImage * img) {
     NSMenu * menu = [[NSMenu allocWithZone:menuZone] init];
     NSMenuItem * menuItem;
 	
-    // Add To Items
-    menuItem = [menu addItemWithTitle:@"Take Lasso Screenshot"
+    // Lasso Item
+	menuItem = [menu addItemWithTitle:@"Take Lasso Screenshot"
                                action:@selector(lasso:)
-                        keyEquivalent:@""];
+                        keyEquivalent:@"6"];
+	[menuItem setKeyEquivalentModifierMask:(NSShiftKeyMask | NSCommandKeyMask)];
 	[menuItem setTarget:self];
+	
+	// Imgbay Item
+	menuItem = [menu addItemWithTitle:@"Take Online Screenshot"
+                               action:@selector(takeImgbaySnapshot:)
+                        keyEquivalent:@"7"];
+	[menuItem setKeyEquivalentModifierMask:(NSShiftKeyMask | NSCommandKeyMask)];
+	[menuItem setTarget:self];
+	
+	// Separator
+	[menu addItem:[NSMenuItem separatorItem]];
+	
+	// Settings Item
 	menuItem = [menu addItemWithTitle:@"Settings"
                                action:@selector(settings:)
                         keyEquivalent:@""];
     [menuItem setTarget:self];
+	
+	// Separator
+	[menu addItem:[NSMenuItem separatorItem]];
+	
+	// Quit Item
 	menuItem = [menu addItemWithTitle:@"Quit"
                                action:@selector(quitApp:)
                         keyEquivalent:@""];
@@ -294,6 +310,18 @@ NSData * ImagePNGData (NSImage * img) {
 	[u release];
 }
 
+- (void)applicationDidResignActive:(NSNotification *)notification {
+	[[FocusManager sharedFocusManager] setSecondaryMainApp:[CarbonAppProcess frontmostProcess]];
+}
+
+- (void)applicationWillBecomeActive:(NSNotification *)notification {
+	CarbonAppProcess * frontmost = [CarbonAppProcess frontmostProcess];
+	CarbonAppProcess * current = [CarbonAppProcess currentProcess];
+	if (![frontmost isEqual:current]) {
+		[[FocusManager sharedFocusManager] setSecondaryMainApp:[CarbonAppProcess frontmostProcess]];
+	}
+}
+
 - (void)awakeFromNib {
 	// Insert code here to initialize your application 
 	
@@ -327,39 +355,22 @@ NSData * ImagePNGData (NSImage * img) {
                                    statusItemWithLength:NSSquareStatusItemLength] retain];
     [_statusItem setMenu:menu];
     [_statusItem setHighlightMode:YES];
-    [_statusItem setToolTip:@"Screenie"];
+    [_statusItem setToolTip:@"LassoCapture"];
     [_statusItem setImage:[NSImage imageNamed:@"smallicon.png"]];
 	
 	[self loadSettings];
 }
 
-- (void)setDone:(BOOL)d {
-	[threadLock lock];
-	done = d;
-	[threadLock unlock];
-}
-- (BOOL)done {
-	BOOL b;
-	[threadLock lock];
-	b = done;
-	[threadLock unlock];
-	return b;
-}
-
 #pragma mark Screenshot Maker
 
-- (void)screenshotMaker:(id)sender 
-		 cropPointsPath:(PointArray *)p 
-			  fromImage:(NSImage *)bmp {
+- (void)screenshotMaker:(id)sender cropPointsPath:(PointArray *)p {
 	// crop the image and save it
 	// we need to start a loading bar
-	void ** ptr = (void **)malloc(sizeof(void *) * 3);
+	void * ptr[2];
 	ptr[0] = p;
-	ptr[1] = bmp;
-	ptr[2] = NULL;
+	ptr[1] = NULL;
 	
 	[self.screenshotWindow orderOut:self];
-	
 	
 	[self startLoading];
 	
@@ -378,10 +389,8 @@ NSData * ImagePNGData (NSImage * img) {
 		}
 	}
 	
-	free(ptr);
 	[threadLock release];
-	threadLock = nil;
-	
+	threadLock = nil;	
 	
 	NSData * png = pngData;
 	if ([[[SettingsController sharedSettings] valueForKey:@"lassofile"] boolValue]) {
@@ -408,9 +417,11 @@ NSData * ImagePNGData (NSImage * img) {
 	// enable to restore process
 	// SetFrontProcess(&lastProcess);
 }
+
 - (void)screenshotMakerDoneCrop:(id)sender {
 	[self.screenshotWindow orderOut:self];
 	self.screenshotWindow = nil;
+	[[FocusManager sharedFocusManager] resignAppFocus];
 }
 
 - (void)cropThread:(NSValue *)value {
@@ -418,16 +429,24 @@ NSData * ImagePNGData (NSImage * img) {
 	
 	void ** ptr = [value pointerValue];
 	PointArray * arr = ptr[0];
-	NSImage * image = ptr[1];
-	image = [[[NSImage alloc] initWithData:[image TIFFRepresentation]] autorelease];
+	NSImage * image = nil;
 	
-	// fix the warning that is all apple's fault!!!
-	ANImageBitmapRep * irep = [[ANImageBitmapRep alloc] initWithImage:(CIImage *)image];
-	CGSize sz = [irep size];
-	NSSize mSize = *(NSSize *)&(sz);
-	ANImageBitmapRep * irep2 = [[ANImageBitmapRep alloc] initWithSize:mSize];
+	CFArrayRef windows = CGWindowListCreate(kCGWindowListOptionOnScreenBelowWindow, [loadingWindow windowNumber]);
+	CGImageRef screenShot = CGWindowListCreateImageFromArray(CGRectInfinite, windows, kCGWindowImageDefault);
+	NSBitmapImageRep * bitmapRep = [[NSBitmapImageRep alloc] initWithCGImage:screenShot];
+	// Create an NSImage and add the bitmap rep to it...
 	
-	CGContextRef ctx = [irep2 graphicsContext];
+	image = [[NSImage alloc] init];
+	[image addRepresentation:bitmapRep];
+	
+	[bitmapRep release];
+	CGImageRelease(screenShot);
+	
+	ANImageBitmapRep * irep = [(ANImageBitmapRep *)[ANImageBitmapRep alloc] initWithImage:image];
+	CGSize originalSize = [irep size];
+	ANImageBitmapRep * newImage = [[ANImageBitmapRep alloc] initWithSize:NSMakeSize(originalSize.width, originalSize.height)];
+	
+	CGContextRef ctx = [newImage graphicsContext];
 	CGContextSaveGState(ctx);
 	// here we will select the frame
 	for	(int i = 0; i < arr->points_c; i++) {
@@ -448,10 +467,10 @@ NSData * ImagePNGData (NSImage * img) {
 	CGImageRelease(mCGImage);
 	CGContextRestoreGState(ctx);
 	
-	[irep2 setChanged];
+	[newImage setChanged];
 	
 	if ([[[SettingsController sharedSettings] valueForKey:@"inverse"] boolValue]) {
-		[irep2 invertColors];
+		[newImage invertColors];
 	}
 	
 	// find max and min
@@ -468,22 +487,38 @@ NSData * ImagePNGData (NSImage * img) {
 	
 	CGRect frm = CGRectMake(min.x, min.y, max.x - min.x, max.y - min.y);
 	// crop it
-	ANImageBitmapRep * irep3 = [irep2 cropWithFrame:frm];
+	ANImageBitmapRep * croppedImage = [newImage cropWithFrame:frm];
+	[newImage release];
 	
 	// now we loop through and inverse the alpha, making a mask
 	
-	cropped = [[irep3 image] retain];
+	cropped = [[croppedImage image] retain];
 	
 	NSImage * anotherImage = [[NSImage alloc] initWithData:[cropped TIFFRepresentation]];
 	pngData = [ImagePNGData(anotherImage) retain];
-	[anotherImage release];
 	
 	[self setDone:YES];
 	
-	[irep2 release];
+	[anotherImage release];
 	[irep release];
+	[image release];
 	
 	[pool drain];
+}
+
+
+- (void)setDone:(BOOL)d {
+	[threadLock lock];
+	done = d;
+	[threadLock unlock];
+}
+
+- (BOOL)done {
+	BOOL b;
+	[threadLock lock];
+	b = done;
+	[threadLock unlock];
+	return b;
 }
 
 @end

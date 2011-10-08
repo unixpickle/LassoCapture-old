@@ -9,16 +9,15 @@
 #import <Cocoa/Cocoa.h>
 #import <Quartz/Quartz.h>
 #import <Carbon/Carbon.h>
-#import "Screenshot.h"
 #import "ANKeyEvent.h"
-#import "ANImageBitmapRep.h"
 #import "ScreenshotMaker.h"
-#import "ANMultiScreenManager.h"
 #import "SettingsController.h"
 #import "KeyWindow.h"
 #import "ANImgbay.h"
+#import "ANMultiScreenManager.h"
+#import "FocusManager.h"
 
-@interface SimpleScreenshotAppDelegate : NSObject <ScreenshotMakerDelegate> {
+@interface SimpleScreenshotAppDelegate : NSObject <ScreenshotMakerDelegate, NSApplicationDelegate> {
     NSWindow * screenshotWindow;
 	IBOutlet NSView * loadingView;
 	IBOutlet NSTextField * loadingText;

@@ -277,13 +277,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
-									<integer>1</integer>
+									<integer>41</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {259, 606}}</string>
+							<string>{{0, 191}, {259, 606}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -313,8 +312,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -332,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FAFC3B6B1392D51B00A1FCEC</string>
+										<string>FAFC3B6D1392D65600A1FCEC</string>
 										<key>history</key>
 										<array>
 											<string>FA3A50CC12A741170042F6D2</string>
@@ -384,6 +381,8 @@
 							<string>312pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -560,6 +559,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FAFC3B751392D65600A1FCEC</string>
+		<string>FAFC3B761392D65600A1FCEC</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA3A4FF412A73E710042F6D2</string>
 		<string>/Users/alex/xCode/git/LassoCapture/SimpleScreenshot.xcodeproj</string>
 	</array>
@@ -763,13 +766,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>FABAA11E134586C9005C4758</string>
+				<string>FAFC3B6E1392D65600A1FCEC</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>FABAA11F134586C9005C4758</string>
-				<string>FABAA120134586C9005C4758</string>
-				<string>FABAA121134586C9005C4758</string>
-				<string>FABAA122134586C9005C4758</string>
-				<string>FABAA123134586C9005C4758</string>
+				<string>FAFC3B6F1392D65600A1FCEC</string>
+				<string>FAFC3B701392D65600A1FCEC</string>
+				<string>FAFC3B711392D65600A1FCEC</string>
+				<string>FAFC3B721392D65600A1FCEC</string>
+				<string>FAFC3B731392D65600A1FCEC</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -896,8 +899,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -933,7 +934,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>FABAA124134586C9005C4758</string>
+				<string>FAFC3B741392D65600A1FCEC</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,15 +12,17 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		FA0444F312AC7840008F0B87 /* ANMultiScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0444F212AC7840008F0B87 /* ANMultiScreenManager.m */; };
 		FA3A4FBE12A73D9A0042F6D2 /* ANKeyEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A4FBB12A73D9A0042F6D2 /* ANKeyEvent.m */; };
-		FA3A4FCE12A73DAB0042F6D2 /* Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A4FCD12A73DAB0042F6D2 /* Screenshot.m */; };
 		FA3A503C12A7404D0042F6D2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3A503B12A7404D0042F6D2 /* OpenGL.framework */; };
 		FA3A503E12A7404D0042F6D2 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3A503D12A7404D0042F6D2 /* Quartz.framework */; };
 		FA3A50B012A7405C0042F6D2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3A50AF12A7405C0042F6D2 /* Carbon.framework */; };
 		FA3A50C612A740DE0042F6D2 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FA3A50C512A740DE0042F6D2 /* icon.icns */; };
 		FA3A511312A748630042F6D2 /* ScreenshotMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A511212A748630042F6D2 /* ScreenshotMaker.m */; };
 		FA647B3112AC00DB00C062E4 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */; };
+		FA9A910F1440AC3800B4D485 /* ANMultiScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A910E1440AC3800B4D485 /* ANMultiScreenManager.m */; };
+		FA9A91171440B1B900B4D485 /* CarbonAppProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A91141440B1B900B4D485 /* CarbonAppProcess.m */; };
+		FA9A91181440B1B900B4D485 /* FocusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A91161440B1B900B4D485 /* FocusManager.m */; };
+		FA9A911B1440C0AF00B4D485 /* lasso.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9A911A1440C0AF00B4D485 /* lasso.png */; };
 		FABAA10C13458478005C4758 /* ANImgbay.m in Sources */ = {isa = PBXBuildFile; fileRef = FABAA10B13458478005C4758 /* ANImgbay.m */; };
 		FACCF83212AD92C90005524E /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACCF83112AD92C90005524E /* SettingsController.m */; };
 		FACCF83612AD99490005524E /* default.plist in Resources */ = {isa = PBXBuildFile; fileRef = FACCF83512AD99490005524E /* default.plist */; };
@@ -43,13 +45,9 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* SimpleScreenshot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleScreenshot-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* SimpleScreenshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleScreenshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA0444F112AC7840008F0B87 /* ANMultiScreenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMultiScreenManager.h; sourceTree = "<group>"; };
-		FA0444F212AC7840008F0B87 /* ANMultiScreenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMultiScreenManager.m; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* LassoCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LassoCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3A4FBA12A73D9A0042F6D2 /* ANKeyEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKeyEvent.h; sourceTree = "<group>"; };
 		FA3A4FBB12A73D9A0042F6D2 /* ANKeyEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKeyEvent.m; sourceTree = "<group>"; };
-		FA3A4FCC12A73DAB0042F6D2 /* Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screenshot.h; sourceTree = "<group>"; };
-		FA3A4FCD12A73DAB0042F6D2 /* Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screenshot.m; sourceTree = "<group>"; };
 		FA3A503B12A7404D0042F6D2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		FA3A503D12A7404D0042F6D2 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		FA3A50AF12A7405C0042F6D2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
@@ -58,6 +56,13 @@
 		FA3A511212A748630042F6D2 /* ScreenshotMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotMaker.m; sourceTree = "<group>"; };
 		FA647B2F12AC00DA00C062E4 /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
 		FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
+		FA9A910D1440AC3800B4D485 /* ANMultiScreenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMultiScreenManager.h; sourceTree = "<group>"; };
+		FA9A910E1440AC3800B4D485 /* ANMultiScreenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMultiScreenManager.m; sourceTree = "<group>"; };
+		FA9A91131440B1B900B4D485 /* CarbonAppProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonAppProcess.h; sourceTree = "<group>"; };
+		FA9A91141440B1B900B4D485 /* CarbonAppProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonAppProcess.m; sourceTree = "<group>"; };
+		FA9A91151440B1B900B4D485 /* FocusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusManager.h; sourceTree = "<group>"; };
+		FA9A91161440B1B900B4D485 /* FocusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusManager.m; sourceTree = "<group>"; };
+		FA9A911A1440C0AF00B4D485 /* lasso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lasso.png; sourceTree = "<group>"; };
 		FABAA10A13458478005C4758 /* ANImgbay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImgbay.h; sourceTree = "<group>"; };
 		FABAA10B13458478005C4758 /* ANImgbay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImgbay.m; sourceTree = "<group>"; };
 		FACCF83012AD92C90005524E /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
@@ -90,6 +95,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FA9A91191440B1BC00B4D485 /* Focus */,
 				FACCF97012ADABA60005524E /* Utilities */,
 				FACCF96F12ADAB920005524E /* Custom Views */,
 				256AC3D80F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.h */,
@@ -128,7 +134,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* SimpleScreenshot.app */,
+				8D1107320486CEB800E47090 /* LassoCapture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA9A911A1440C0AF00B4D485 /* lasso.png */,
 				FAD9539612AC238400B6E184 /* smallicon.png */,
 				FAD9536512AC201B00B6E184 /* spinner.gif */,
 				FAD952FE12AC1BB000B6E184 /* loader.tiff */,
@@ -178,6 +185,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA9A91191440B1BC00B4D485 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				FA9A91131440B1B900B4D485 /* CarbonAppProcess.h */,
+				FA9A91141440B1B900B4D485 /* CarbonAppProcess.m */,
+				FA9A91151440B1B900B4D485 /* FocusManager.h */,
+				FA9A91161440B1B900B4D485 /* FocusManager.m */,
+			);
+			name = Focus;
+			sourceTree = "<group>";
+		};
 		FACCF96F12ADAB920005524E /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,12 +210,10 @@
 		FACCF97012ADABA60005524E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				FA0444F112AC7840008F0B87 /* ANMultiScreenManager.h */,
-				FA0444F212AC7840008F0B87 /* ANMultiScreenManager.m */,
 				FA647B2F12AC00DA00C062E4 /* ANImageBitmapRep.h */,
 				FA647B3012AC00DB00C062E4 /* ANImageBitmapRep.m */,
-				FA3A4FCC12A73DAB0042F6D2 /* Screenshot.h */,
-				FA3A4FCD12A73DAB0042F6D2 /* Screenshot.m */,
+				FA9A910D1440AC3800B4D485 /* ANMultiScreenManager.h */,
+				FA9A910E1440AC3800B4D485 /* ANMultiScreenManager.m */,
 				FA3A4FBA12A73D9A0042F6D2 /* ANKeyEvent.h */,
 				FA3A4FBB12A73D9A0042F6D2 /* ANKeyEvent.m */,
 			);
@@ -207,9 +223,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* SimpleScreenshot */ = {
+		8D1107260486CEB800E47090 /* LassoCapture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleScreenshot" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LassoCapture" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -219,10 +235,10 @@
 			);
 			dependencies = (
 			);
-			name = SimpleScreenshot;
+			name = LassoCapture;
 			productInstallPath = "$(HOME)/Applications";
 			productName = SimpleScreenshot;
-			productReference = 8D1107320486CEB800E47090 /* SimpleScreenshot.app */;
+			productReference = 8D1107320486CEB800E47090 /* LassoCapture.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -230,8 +246,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleScreenshot" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -244,7 +263,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* SimpleScreenshot */,
+				8D1107260486CEB800E47090 /* LassoCapture */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +280,7 @@
 				FAD9536612AC201B00B6E184 /* spinner.gif in Resources */,
 				FAD9539712AC238400B6E184 /* smallicon.png in Resources */,
 				FACCF83612AD99490005524E /* default.plist in Resources */,
+				FA9A911B1440C0AF00B4D485 /* lasso.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,14 +294,15 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* SimpleScreenshotAppDelegate.m in Sources */,
 				FA3A4FBE12A73D9A0042F6D2 /* ANKeyEvent.m in Sources */,
-				FA3A4FCE12A73DAB0042F6D2 /* Screenshot.m in Sources */,
 				FA3A511312A748630042F6D2 /* ScreenshotMaker.m in Sources */,
 				FA647B3112AC00DB00C062E4 /* ANImageBitmapRep.m in Sources */,
 				FAD9532C12AC1E2E00B6E184 /* TransView.m in Sources */,
-				FA0444F312AC7840008F0B87 /* ANMultiScreenManager.m in Sources */,
 				FACCF83212AD92C90005524E /* SettingsController.m in Sources */,
 				FACCF93012ADA8260005524E /* KeyWindow.m in Sources */,
 				FABAA10C13458478005C4758 /* ANImgbay.m in Sources */,
+				FA9A910F1440AC3800B4D485 /* ANMultiScreenManager.m in Sources */,
+				FA9A91171440B1B900B4D485 /* CarbonAppProcess.m in Sources */,
+				FA9A91181440B1B900B4D485 /* FocusManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +334,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -321,8 +341,8 @@
 				INFOPLIST_FILE = "SimpleScreenshot-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = SimpleScreenshot;
-				SDKROOT = macosx10.5;
+				PRODUCT_NAME = LassoCapture;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -336,7 +356,8 @@
 				GCC_PREFIX_HEADER = SimpleScreenshot_Prefix.pch;
 				INFOPLIST_FILE = "SimpleScreenshot-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = SimpleScreenshot;
+				PRODUCT_NAME = LassoCapture;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -348,8 +369,8 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
 			name = Debug;
@@ -361,7 +382,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx10.6;
 			};
 			name = Release;
@@ -369,7 +391,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleScreenshot" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LassoCapture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,

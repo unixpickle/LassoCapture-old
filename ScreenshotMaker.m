@@ -7,9 +7,8 @@
 //
 
 #import "ScreenshotMaker.h"
-#import "Screenshot.h"
 
-@interface ScreenshotMaker (private)
+@interface ScreenshotMaker (Private)
 
 - (void)addPoint:(CGPoint)p;
 - (void)pointsInit;
@@ -26,7 +25,7 @@
     if (self) {
         // Initialization code here.
 		[self pointsInit];
-		screenshotImage = [[Screenshot captureScreen] retain];
+		// screenshotImage = [[Screenshot captureScreen] retain];
 		thickness = (int)[[[SettingsController sharedSettings] valueForKey:@"lassothickness"] floatValue];
 		NSColor * c = [[SettingsController sharedSettings] colorForKey:@"lassocolor"];
 		
@@ -36,9 +35,16 @@
 		components[1] = [c greenComponent];
 		components[2] = [c blueComponent];
 		components[3] = [c alphaComponent];
-		
+		[[NSCursor crosshairCursor] set];
+		[self addCursorRect:self.bounds cursor:[NSCursor crosshairCursor]];
     }
     return self;
+}
+
+- (void)cursorUpdate:(NSEvent *)event {
+	NSCursor * custom = [[NSCursor alloc] initWithImage:[NSImage imageNamed:@"lasso.png"] hotSpot:NSMakePoint(3, 21)];
+	[custom set];
+	[custom release];
 }
 
 - (BOOL)canBecomeKeyView {
@@ -55,13 +61,13 @@
 - (void)mouseDown:(NSEvent *)theEvent {
 	// first point
 	NSPoint p = [theEvent locationInWindow];
-	[self addPoint:*(CGPoint *)&p];
+	[self addPoint:CGPointMake(round(p.x), round(p.y))];
 	[self setNeedsDisplay:YES];
 }
 
 - (void)mouseDragged:(NSEvent *)theEvent {
 	NSPoint p = [theEvent locationInWindow];
-	[self addPoint:*(CGPoint *)&p];
+	[self addPoint:CGPointMake(round(p.x), round(p.y))];
 	[self setNeedsDisplay:YES];
 }
 
@@ -72,13 +78,13 @@
 		[self pointsInit];
 		return;
 	}
-	if ([(id)delegate respondsToSelector:@selector(screenshotMaker:cropPointsPath:fromImage:)]) {
-		// call it
-		[delegate screenshotMaker:self cropPointsPath:&points fromImage:screenshotImage];
+	
+	if ([(id)delegate respondsToSelector:@selector(screenshotMaker:cropPointsPath:)]) {
+		[delegate screenshotMaker:self cropPointsPath:&points];
 	}
+	
 	// tell the delegate to close us down
 	if ([(id)delegate respondsToSelector:@selector(screenshotMakerDoneCrop:)]) {
-		// call it
 		[delegate screenshotMakerDoneCrop:self];
 	}
 }
@@ -90,9 +96,6 @@
 	
 	CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
 	
-	[screenshotImage drawInRect:[self bounds]
-					   fromRect:NSZeroRect
-					  operation:NSCompositeSourceOver fraction:1];
 	// draw lines
 	CGContextSaveGState(context);
 	CGContextBeginPath(context);
@@ -120,13 +123,12 @@
 
 - (void)dealloc {
 	[self pointsFree];
-	[screenshotImage release];
 	[super dealloc];
 }
 
 @end
 
-@implementation ScreenshotMaker (private)
+@implementation ScreenshotMaker (Private)
 
 - (void)addPoint:(CGPoint)p {
 	if (points.points_c + 1 > points.points_f) {
@@ -137,12 +139,14 @@
 	points.points_b[points.points_c] = p;
 	points.points_c += 1;
 }
+
 - (void)pointsInit {
 	points.points_c = 0;
 	points.points_f = 512;
 	points.points_b = (CGPoint *)malloc((sizeof(CGPoint) * 512) + 1);
 	bzero(points.points_b, (sizeof(CGPoint) * 512) + 1);
 }
+
 - (void)pointsFree {
 	free(points.points_b);
 	points.points_c = 0;
