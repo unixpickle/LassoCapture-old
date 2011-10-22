@@ -135,6 +135,7 @@
 		// add points
 		points.points_b = realloc(points.points_b,
 								  (points.points_f + 512) * sizeof(CGPoint));
+		points.points_f += 512;
 	}
 	points.points_b[points.points_c] = p;
 	points.points_c += 1;
