@@ -9,21 +9,16 @@
 #import <Cocoa/Cocoa.h>
 #import "ANImageBitmapRep.h"
 #import "SettingsController.h"
-
-typedef struct {
-	CGPoint * points_b;
-	int points_c;
-	int points_f;
-} PointArray;
+#import "PointArray.h"
 
 @protocol ScreenshotMakerDelegate
-@optional
 
-- (void)screenshotMaker:(id)sender cropPointsPath:(PointArray *)p;
 - (void)screenshotMakerDoneCrop:(id)sender;
 
-@end
+@optional
+- (void)screenshotMaker:(id)sender cropPointsPath:(PointArray *)p;
 
+@end
 
 @interface ScreenshotMaker : NSView {
 	PointArray points; // used for storing points

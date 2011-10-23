@@ -8,14 +8,6 @@
 
 #import "ScreenshotMaker.h"
 
-@interface ScreenshotMaker (Private)
-
-- (void)addPoint:(CGPoint)p;
-- (void)pointsInit;
-- (void)pointsFree;
-
-@end
-
 @implementation ScreenshotMaker
 
 @synthesize delegate;
@@ -24,7 +16,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code here.
-		[self pointsInit];
+		point_array_init(&points);
 		// screenshotImage = [[Screenshot captureScreen] retain];
 		thickness = (int)[[[SettingsController sharedSettings] valueForKey:@"lassothickness"] floatValue];
 		NSColor * c = [[SettingsController sharedSettings] colorForKey:@"lassocolor"];
@@ -59,23 +51,37 @@
 }
 
 - (void)mouseDown:(NSEvent *)theEvent {
-	// first point
 	NSPoint p = [theEvent locationInWindow];
-	[self addPoint:CGPointMake(round(p.x), round(p.y))];
+	CGPoint newP = CGPointMake(round(p.x), round(p.y));
+	if (points.lines == 0) {
+		point_array_add(&points, newP);
+	} else {
+		point_array_add(&points, newP);
+		point_array_add(&points, newP);
+	}
+	points.lines ++;
 	[self setNeedsDisplay:YES];
 }
 
 - (void)mouseDragged:(NSEvent *)theEvent {
 	NSPoint p = [theEvent locationInWindow];
-	[self addPoint:CGPointMake(round(p.x), round(p.y))];
+	CGPoint newP = CGPointMake(round(p.x), round(p.y));
+	if (points.lines == 0) {
+		point_array_add(&points, newP);
+	} else {
+		point_array_add(&points, newP);
+		point_array_add(&points, newP);
+	}
+	points.lines ++;
 	[self setNeedsDisplay:YES];
 }
 
 - (void)mouseUp:(NSEvent *)theEvent {
 	// here we will save the image.
 	if (points.points_c < 2) {
-		[self pointsFree];
-		[self pointsInit];
+		[delegate screenshotMakerDoneCrop:self];
+		point_array_free(&points);
+		point_array_init(&points);
 		return;
 	}
 	
@@ -90,70 +96,28 @@
 }
 
 - (void)drawRect:(NSRect)dirtyRect {
-    // Drawing code here.
-	// draw the ANImageBitmapContext
-	
+	if (points.lines <= 1) return;
 	
 	CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
 	
-	// draw lines
 	CGContextSaveGState(context);
 	CGContextBeginPath(context);
-	// draw lines
-	for (int i = 0; i < points.points_c; i++) {
-		CGPoint p = points.points_b[i];
-		if (i == 0) {
-			CGContextMoveToPoint(context, p.x, p.y);
-		} else {
-			CGContextAddLineToPoint(context, p.x, p.y);
-			
-		}
-	}
-	
-	
+	CGContextAddLines(context, points.points_b, points.points_c - 1);
+
 	CGColorRef color = CGColorCreateGenericRGB(components[0], components[1], components[2], components[3]);
 	CGContextSetStrokeColorWithColor(context, color);
 	CGContextSetLineCap(context, kCGLineCapRound);
 	CGContextSetLineWidth(context, thickness);
+	
 	CGContextStrokePath(context);
 	CGColorRelease(color);
-	
+
 	CGContextRestoreGState(context);
 }
 
 - (void)dealloc {
-	[self pointsFree];
+	point_array_free(&points);
 	[super dealloc];
 }
 
 @end
-
-@implementation ScreenshotMaker (Private)
-
-- (void)addPoint:(CGPoint)p {
-	if (points.points_c + 1 > points.points_f) {
-		// add points
-		points.points_b = realloc(points.points_b,
-								  (points.points_f + 512) * sizeof(CGPoint));
-		points.points_f += 512;
-	}
-	points.points_b[points.points_c] = p;
-	points.points_c += 1;
-}
-
-- (void)pointsInit {
-	points.points_c = 0;
-	points.points_f = 512;
-	points.points_b = (CGPoint *)malloc((sizeof(CGPoint) * 512) + 1);
-	bzero(points.points_b, (sizeof(CGPoint) * 512) + 1);
-}
-
-- (void)pointsFree {
-	free(points.points_b);
-	points.points_c = 0;
-	points.points_b = NULL;
-	points.points_f = 0;
-}
-
-@end
-

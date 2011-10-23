@@ -58,8 +58,8 @@
 			NSString * uri = [[NSString alloc] initWithFormat:@"http://www.aqnichol.com/imgbay/%@", str];
 			[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:uri]];
 			[uri release];
+			[str release];
 		}
-		[str release];
 	}
 	
 	[pool drain];

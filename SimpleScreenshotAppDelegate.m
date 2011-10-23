@@ -8,20 +8,9 @@
 
 #import "SimpleScreenshotAppDelegate.h"
 
-NSData * ImagePNGData (NSImage * img) {
-	NSBitmapImageRep * bits = [[img representations] objectAtIndex:0];
-	
-	NSData * data;
-	data = [bits representationUsingType:NSPNGFileType
-							  properties:nil];
-	
-	return data;
-}
-
 @implementation SimpleScreenshotAppDelegate
 
 @synthesize screenshotWindow;
-@synthesize cropped;
 
 #pragma mark Keyboard Shortcuts
 
@@ -364,55 +353,27 @@ NSData * ImagePNGData (NSImage * img) {
 #pragma mark Screenshot Maker
 
 - (void)screenshotMaker:(id)sender cropPointsPath:(PointArray *)p {
-	// crop the image and save it
-	// we need to start a loading bar
-	void * ptr[2];
-	ptr[0] = p;
-	ptr[1] = NULL;
-	
 	[self.screenshotWindow orderOut:self];
-	
 	[self startLoading];
 	
-	threadLock = [[NSLock alloc] init];
-	[self setDone:NO];
-	[self performSelectorInBackground:@selector(cropThread:) 
-						   withObject:[NSValue valueWithPointer:ptr]];
-	while (true) {
-		if ([self done]) {
-			break;
-		} else {
-			NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-			NSDate * ndate = [NSDate dateWithTimeIntervalSinceNow:0.5];
-			[[NSRunLoop mainRunLoop] runUntilDate:ndate];
-			[pool drain];
+	[ANScreenshotCropper cropScreenshotWithPoints:p topWindow:[loadingWindow windowNumber] callback:^(NSData * imgData) {
+		if ([[[SettingsController sharedSettings] valueForKey:@"lassofile"] boolValue]) {
+			NSString * name = [NSString stringWithFormat:@"Screenshot %@.png", [NSDate date]];
+			[imgData writeToFile:[NSHomeDirectory() stringByAppendingFormat:@"/Desktop/%@", name] 
+				  atomically:YES];	
 		}
-	}
-	
-	[threadLock release];
-	threadLock = nil;	
-	
-	NSData * png = pngData;
-	if ([[[SettingsController sharedSettings] valueForKey:@"lassofile"] boolValue]) {
-		NSString * name = [NSString stringWithFormat:@"Screenshot %@.png", [NSDate date]];
-		[png writeToFile:[NSHomeDirectory() stringByAppendingFormat:@"/Desktop/%@", name] 
-			  atomically:YES];	
-	}
-	if ([[[SettingsController sharedSettings] valueForKey:@"lassoclipboard"] boolValue]) {
-		NSPasteboard * pb = [NSPasteboard generalPasteboard];
-		NSArray * types = [NSArray arrayWithObjects:NSTIFFPboardType, nil];
-		if (cropped) {
-			[pb declareTypes:types owner:self];
-			[pb setData:[cropped TIFFRepresentation] forType:NSTIFFPboardType];
+		if ([[[SettingsController sharedSettings] valueForKey:@"lassoclipboard"] boolValue]) {
+			NSPasteboard * pb = [NSPasteboard generalPasteboard];
+			NSArray * types = [NSArray arrayWithObjects:NSTIFFPboardType, nil];
+			NSImage * theCropped = [[NSImage alloc] initWithData:imgData];
+			if (theCropped) {
+				[pb declareTypes:types owner:self];
+				[pb setData:[theCropped TIFFRepresentation] forType:NSTIFFPboardType];
+			}
+			[theCropped release];
 		}
-	}
-	
-	[cropped release];
-	
-	[self stopLoading];
-	
-	[pngData release];
-	pngData = nil;
+		[self stopLoading];	
+	}];
 	
 	// enable to restore process
 	// SetFrontProcess(&lastProcess);
@@ -422,103 +383,6 @@ NSData * ImagePNGData (NSImage * img) {
 	[self.screenshotWindow orderOut:self];
 	self.screenshotWindow = nil;
 	[[FocusManager sharedFocusManager] resignAppFocus];
-}
-
-- (void)cropThread:(NSValue *)value {
-	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-	
-	void ** ptr = [value pointerValue];
-	PointArray * arr = ptr[0];
-	NSImage * image = nil;
-	
-	CFArrayRef windows = CGWindowListCreate(kCGWindowListOptionOnScreenBelowWindow, [loadingWindow windowNumber]);
-	CGImageRef screenShot = CGWindowListCreateImageFromArray(CGRectInfinite, windows, kCGWindowImageDefault);
-	NSBitmapImageRep * bitmapRep = [[NSBitmapImageRep alloc] initWithCGImage:screenShot];
-	// Create an NSImage and add the bitmap rep to it...
-	
-	image = [[NSImage alloc] init];
-	[image addRepresentation:bitmapRep];
-	
-	[bitmapRep release];
-	CGImageRelease(screenShot);
-	
-	ANImageBitmapRep * irep = [(ANImageBitmapRep *)[ANImageBitmapRep alloc] initWithImage:image];
-	CGSize originalSize = [irep size];
-	ANImageBitmapRep * newImage = [[ANImageBitmapRep alloc] initWithSize:NSMakeSize(originalSize.width, originalSize.height)];
-	
-	CGContextRef ctx = [newImage graphicsContext];
-	CGContextSaveGState(ctx);
-	// here we will select the frame
-	for	(int i = 0; i < arr->points_c; i++) {
-		CGPoint p = arr->points_b[i];
-		if (i == 0) {
-			CGContextMoveToPoint(ctx, p.x, p.y);
-		} else {
-			CGContextAddLineToPoint(ctx, p.x, p.y);
-		}
-	}
-	CGPoint p = arr->points_b[0];
-	CGContextAddLineToPoint(ctx, p.x, p.y);
-	
-	CGContextClosePath(ctx);
-	CGContextClip(ctx);
-	CGImageRef mCGImage = [irep CGImage];
-	CGContextDrawImage(ctx, CGRectMake(0, 0, [irep size].width, [irep size].height), mCGImage);
-	CGImageRelease(mCGImage);
-	CGContextRestoreGState(ctx);
-	
-	[newImage setChanged];
-	
-	if ([[[SettingsController sharedSettings] valueForKey:@"inverse"] boolValue]) {
-		[newImage invertColors];
-	}
-	
-	// find max and min
-	CGPoint min = CGPointMake(100000, 100000);
-	CGPoint max = CGPointMake(0, 0);
-	
-	for	(int i = 0; i < arr->points_c; i++) {
-		CGPoint p = arr->points_b[i];
-		if (p.x < min.x) min.x = p.x;
-		if (p.y < min.y) min.y = p.y;
-		if (p.x > max.x) max.x = p.x;
-		if (p.y > max.y) max.y = p.y;
-	}
-	
-	CGRect frm = CGRectMake(min.x, min.y, max.x - min.x, max.y - min.y);
-	// crop it
-	ANImageBitmapRep * croppedImage = [newImage cropWithFrame:frm];
-	[newImage release];
-	
-	// now we loop through and inverse the alpha, making a mask
-	
-	cropped = [[croppedImage image] retain];
-	
-	NSImage * anotherImage = [[NSImage alloc] initWithData:[cropped TIFFRepresentation]];
-	pngData = [ImagePNGData(anotherImage) retain];
-	
-	[self setDone:YES];
-	
-	[anotherImage release];
-	[irep release];
-	[image release];
-	
-	[pool drain];
-}
-
-
-- (void)setDone:(BOOL)d {
-	[threadLock lock];
-	done = d;
-	[threadLock unlock];
-}
-
-- (BOOL)done {
-	BOOL b;
-	[threadLock lock];
-	b = done;
-	[threadLock unlock];
-	return b;
 }
 
 @end

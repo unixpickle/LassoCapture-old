@@ -16,15 +16,12 @@
 #import "ANImgbay.h"
 #import "ANMultiScreenManager.h"
 #import "FocusManager.h"
+#import "ANScreenshotCropper.h"
 
 @interface SimpleScreenshotAppDelegate : NSObject <ScreenshotMakerDelegate, NSApplicationDelegate> {
     NSWindow * screenshotWindow;
 	IBOutlet NSView * loadingView;
 	IBOutlet NSTextField * loadingText;
-	NSImage * cropped;
-	NSData * pngData;
-	BOOL done;
-	NSLock * threadLock;
 	NSWindow * loadingWindow;
 	
 	// settings
@@ -38,6 +35,8 @@
 	NSStatusItem * _statusItem;
 	ProcessSerialNumber lastProcess;
 }
+
+@property (nonatomic, retain) NSWindow * screenshotWindow;
 
 - (void)makeShift5;
 - (void)makeShift6;
@@ -53,11 +52,5 @@
 - (void)takeLassoSnapshot:(id)sender;
 - (void)takeClipboardSnapshot:(id)sender;
 - (void)takeImgbaySnapshot:(id)sender;
-
-- (void)setDone:(BOOL)d;
-- (BOOL)done;
-- (void)cropThread:(NSValue *)value;
-@property (nonatomic, retain) NSImage * cropped;
-@property (nonatomic, retain) NSWindow * screenshotWindow;
 
 @end
