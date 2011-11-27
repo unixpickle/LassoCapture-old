@@ -164,6 +164,7 @@
 	if (!myImage) {
 		return;
 	}
+	[[NSFileManager defaultManager] removeItemAtPath:tempFile error:nil];
 	
 	if ([[[SettingsController sharedSettings] valueForKey:@"inverse"] boolValue]) {
 		ANImageBitmapRep * invert = [[ANImageBitmapRep alloc] initWithImage:(id)myImage];
@@ -173,11 +174,17 @@
 		[invert release];
 	}
 	
-	ANImgbay * imagePost = [(ANImgbay *)[ANImgbay alloc] initWithImage:myImage];
+	ANImgbay * imagePost = [(ANImgbay *)[ANImgbay alloc] initWithImage:myImage callback:^(NSURL * imageURL) {
+		[[NSWorkspace sharedWorkspace] openURL:imageURL];
+	}];
+	[imagePost setErrorCallback:^(NSString * error) {
+		NSRunAlertPanel(@"Imgbay Error",
+						[NSString stringWithFormat:@"Failed to post with error: \"%@\"", error],
+						@"OK", nil, nil);
+	}];
 	[imagePost postInBackground];
 	[imagePost release];
 	
-	[[NSFileManager defaultManager] removeItemAtPath:tempFile error:nil];
 	[myImage release];
 }
 

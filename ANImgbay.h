@@ -8,13 +8,28 @@
 
 #import <Cocoa/Cocoa.h>
 
+#define kImgbayPostURL @"http://aqnichol.com/img/post.php"
+
+typedef enum {
+	ANImgbayFormatPNG,
+	ANImgbayFormatJPEG
+} ANImgbayFormat;
+
+typedef void (^ANImgbaySuccessCallback)(NSURL * imageURL);
+typedef void (^ANImgbayFailureCallback)(NSString * error);
 
 @interface ANImgbay : NSObject {
 	NSImage * image;
+	ANImgbaySuccessCallback callback;
+	ANImgbayFailureCallback errorCallback;
+	ANImgbayFormat format;
 }
 
-- (id)initWithImage:(NSImage *)_image;
+@property (readwrite) ANImgbayFormat format;
+@property (copy) ANImgbaySuccessCallback callback;
+@property (copy) ANImgbayFailureCallback errorCallback;
+
+- (id)initWithImage:(NSImage *)anImage callback:(ANImgbaySuccessCallback)aCallback;
 - (void)postInBackground;
-- (void)backgroundThread:(NSImage *)data;
 
 @end
