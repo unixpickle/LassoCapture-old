@@ -79,7 +79,6 @@ NSData * NSImagePNGData (NSImage * img);
 	CGFloat scale = 1;
     if (CGImageGetWidth(screenShot) > (maxX - minX) + 1) scale = 2;
     else if (CGImageGetHeight(screenShot) > (maxY - minY) + 1) scale = 2;
-    NSLog(@"scale: %f", scale);
     
 	NSImage * image = [[NSImage alloc] initWithCGImage:screenShot size:NSZeroSize];
 	CGImageRelease(screenShot);
