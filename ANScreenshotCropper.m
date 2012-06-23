@@ -8,6 +8,13 @@
 
 #import "ANScreenshotCropper.h"
 
+#ifndef MIN
+#define MIN(x,y) (x < y ? x : y)
+#endif
+#ifndef MAX
+#define MAX(x,y) (x > y ? x : y)
+#endif
+
 NSData * NSImagePNGData (NSImage * img);
 
 @interface ANScreenshotCropper (Private)
@@ -55,12 +62,25 @@ NSData * NSImagePNGData (NSImage * img);
 - (void)_cropInBackground {
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 	
+    CGFloat minX = 0, maxX = 0, minY = 0, maxY = 0;
+    for (NSScreen * screen in [NSScreen screens]) {
+        CGRect frame = NSRectToCGRect(screen.frame);
+        minX = MIN(minX, frame.origin.x);
+        maxX = MAX(maxX, CGRectGetMaxX(frame));
+        minY = MIN(minY, frame.origin.y);
+        maxY = MAX(maxY, CGRectGetMaxY(frame));
+    }
+    
 	CFArrayRef windows = CGWindowListCreate(kCGWindowListOptionOnScreenBelowWindow, windowNumber);
 	CGImageRef screenShot = CGWindowListCreateImageFromArray(CGRectInfinite, windows, kCGWindowImageDefault);
 	CFRelease(windows);
 	// NSBitmapImageRep * bitmapRep = [[NSBitmapImageRep alloc] initWithCGImage:screenShot];
 	// Create an NSImage and add the bitmap rep to it...
-	
+	CGFloat scale = 1;
+    if (CGImageGetWidth(screenShot) > (maxX - minX) + 1) scale = 2;
+    else if (CGImageGetHeight(screenShot) > (maxY - minY) + 1) scale = 2;
+    NSLog(@"scale: %f", scale);
+    
 	NSImage * image = [[NSImage alloc] initWithCGImage:screenShot size:NSZeroSize];
 	CGImageRelease(screenShot);
 	
@@ -70,6 +90,14 @@ NSData * NSImagePNGData (NSImage * img);
 	CGContextRef ctx = [newImage context];
 	CGContextSaveGState(ctx);
 	
+    // scale the stuff
+    for (int i = 0; i < array->points_c; i++) {
+        CGPoint point = array->points_b[i];
+        point.x *= scale;
+        point.y *= scale;
+        array->points_b[i] = point;
+    }
+    
 	CGContextBeginPath(ctx);
 	CGContextAddLines(ctx, array->points_b, array->points_c - 1);
 	CGContextClosePath(ctx);
