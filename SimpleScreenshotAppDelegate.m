@@ -157,7 +157,7 @@
 }
 
 - (void)takeImgbaySnapshot:(id)sender {
-	NSString * tempFile = [NSTemporaryDirectory() stringByAppendingFormat:@"/temp%d.png", time(NULL)];
+	NSString * tempFile = [NSTemporaryDirectory() stringByAppendingFormat:@"/temp%d.png", (int)time(NULL)];
 	
 	system([[NSString stringWithFormat:@"screencapture -i %@", tempFile] UTF8String]);
 	NSImage * myImage = [[NSImage alloc] initWithContentsOfFile:tempFile];
@@ -176,6 +176,8 @@
 	
 	ANImgbay * imagePost = [(ANImgbay *)[ANImgbay alloc] initWithImage:myImage callback:^(NSURL * imageURL) {
 		[[NSWorkspace sharedWorkspace] openURL:imageURL];
+        [[NSPasteboard generalPasteboard] clearContents];
+        [[NSPasteboard generalPasteboard] setString:imageURL.description forType:NSURLPboardType];
 	}];
 	[imagePost setErrorCallback:^(NSString * error) {
 		NSRunAlertPanel(@"Imgbay Error",
