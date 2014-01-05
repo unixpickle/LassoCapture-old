@@ -18,6 +18,7 @@
 		FA3A503E12A7404D0042F6D2 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3A503D12A7404D0042F6D2 /* Quartz.framework */; };
 		FA3A50B012A7405C0042F6D2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3A50AF12A7405C0042F6D2 /* Carbon.framework */; };
 		FA3A511312A748630042F6D2 /* ScreenshotMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A511212A748630042F6D2 /* ScreenshotMaker.m */; };
+		FA92232518794809004818D5 /* smallicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA92232418794809004818D5 /* smallicon.png */; };
 		FA9A910F1440AC3800B4D485 /* ANMultiScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A910E1440AC3800B4D485 /* ANMultiScreenManager.m */; };
 		FA9A91171440B1B900B4D485 /* CarbonAppProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A91141440B1B900B4D485 /* CarbonAppProcess.m */; };
 		FA9A91181440B1B900B4D485 /* FocusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A91161440B1B900B4D485 /* FocusManager.m */; };
@@ -42,7 +43,6 @@
 		FAD952FF12AC1BB000B6E184 /* loader.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FAD952FE12AC1BB000B6E184 /* loader.tiff */; };
 		FAD9532C12AC1E2E00B6E184 /* TransView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD9532B12AC1E2E00B6E184 /* TransView.m */; };
 		FAD9536612AC201B00B6E184 /* spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = FAD9536512AC201B00B6E184 /* spinner.gif */; };
-		FAD9539712AC238400B6E184 /* smallicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD9539612AC238400B6E184 /* smallicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +66,7 @@
 		FA3A50AF12A7405C0042F6D2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		FA3A511112A748630042F6D2 /* ScreenshotMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenshotMaker.h; sourceTree = "<group>"; };
 		FA3A511212A748630042F6D2 /* ScreenshotMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotMaker.m; sourceTree = "<group>"; };
+		FA92232418794809004818D5 /* smallicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallicon.png; sourceTree = "<group>"; };
 		FA9A910D1440AC3800B4D485 /* ANMultiScreenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMultiScreenManager.h; sourceTree = "<group>"; };
 		FA9A910E1440AC3800B4D485 /* ANMultiScreenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMultiScreenManager.m; sourceTree = "<group>"; };
 		FA9A91131440B1B900B4D485 /* CarbonAppProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonAppProcess.h; sourceTree = "<group>"; };
@@ -110,7 +111,6 @@
 		FAD9532A12AC1E2E00B6E184 /* TransView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransView.h; sourceTree = "<group>"; };
 		FAD9532B12AC1E2E00B6E184 /* TransView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransView.m; sourceTree = "<group>"; };
 		FAD9536512AC201B00B6E184 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
-		FAD9539612AC238400B6E184 /* smallicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,9 +201,9 @@
 			isa = PBXGroup;
 			children = (
 				FA9A911A1440C0AF00B4D485 /* lasso.png */,
-				FAD9539612AC238400B6E184 /* smallicon.png */,
 				FAD9536512AC201B00B6E184 /* spinner.gif */,
 				FAD952FE12AC1BB000B6E184 /* loader.tiff */,
+				FA92232418794809004818D5 /* smallicon.png */,
 				FA14C0031879465700482214 /* icon.icns */,
 				8D1107310486CEB800E47090 /* SimpleScreenshot-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -367,9 +367,9 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				FA92232518794809004818D5 /* smallicon.png in Resources */,
 				FAD952FF12AC1BB000B6E184 /* loader.tiff in Resources */,
 				FAD9536612AC201B00B6E184 /* spinner.gif in Resources */,
-				FAD9539712AC238400B6E184 /* smallicon.png in Resources */,
 				FA14C0041879465700482214 /* icon.icns in Resources */,
 				FACCF83612AD99490005524E /* default.plist in Resources */,
 				FA9A911B1440C0AF00B4D485 /* lasso.png in Resources */,
